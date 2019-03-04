@@ -12,7 +12,7 @@
 
 ## Live demo
 
-<!-- TODO: Add demo link -->
+[Demo link](https://minor-web-project-1.netlify.com)
 
 ## Installation
 
