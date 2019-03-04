@@ -5,7 +5,8 @@
             "type": "feature",
             "properties": {
                 "id": "0",
-                "address": "3 Albardakade, Amsterdam, Netherlands"
+                "address": "3 Albardakade, Amsterdam, Netherlands",
+                "name": "OBA Geuzenveld"
             },
             "geometry": {
                 "type": "point",
@@ -16,7 +17,8 @@
             "type": "feature",
             "properties": {
                 "id": "1",
-                "address": "249 Bezaanjachtplein, Amsterdam, Netherlands"
+                "address": "249 Bezaanjachtplein, Amsterdam, Netherlands",
+                "name": "OBA Banne"
             },
             "geometry": {
                 "type": "point",
@@ -27,7 +29,8 @@
             "type": "feature",
             "properties": {
                 "id": "2",
-                "address": "393 Bijlmerplein, Amsterdam, Netherlands"
+                "address": "393 Bijlmerplein, Amsterdam, Netherlands",
+                "name": "OBA Bijlmerplein"
             },
             "geometry": {
                 "type": "point",
@@ -38,7 +41,8 @@
             "type": "feature",
             "properties": {
                 "id": "3",
-                "address": "233 Bos en Lommerweg, Amsterdam, Netherlands"
+                "address": "233 Bos en Lommerweg, Amsterdam, Netherlands",
+                "name": "OBA Bos en Lommer"
             },
             "geometry": {
                 "type": "point",
@@ -49,7 +53,8 @@
             "type": "feature",
             "properties": {
                 "id": "4",
-                "address": "1 Cullinanplein, Amsterdam, Netherlands"
+                "address": "1 Cullinanplein, Amsterdam, Netherlands",
+                "name": "OBA CC Amstel"
             },
             "geometry": {
                 "type": "point",
@@ -60,7 +65,8 @@
             "type": "feature",
             "properties": {
                 "id": "5",
-                "address": "79 Diemerparklaan, Amsterdam, Netherlands"
+                "address": "79 Diemerparklaan, Amsterdam, Netherlands",
+                "name": "OBA Diemen"
             },
             "geometry": {
                 "type": "point",
@@ -71,7 +77,8 @@
             "type": "feature",
             "properties": {
                 "id": "6",
-                "address": "60 Dorpsplein, Duivendrecht, Netherlands"
+                "address": "60 Dorpsplein, Duivendrecht, Netherlands",
+                "name": "OBA Duivendrecht"
             },
             "geometry": {
                 "type": "point",
@@ -82,7 +89,8 @@
             "type": "feature",
             "properties": {
                 "id": "7",
-                "address": "1 Gentiaanstraat, Amsterdam, Netherlands"
+                "address": "1 Gentiaanstraat, Amsterdam, Netherlands",
+                "name": "OBA Van der Pek"
             },
             "geometry": {
                 "type": "point",
@@ -93,7 +101,8 @@
             "type": "feature",
             "properties": {
                 "id": "8",
-                "address": "10 Hannie Dankbaarpassage, Amsterdam, Netherlands"
+                "address": "10 Hannie Dankbaarpassage, Amsterdam, Netherlands",
+                "name": "OBA De Hallen"
             },
             "geometry": {
                 "type": "point",
@@ -104,7 +113,8 @@
             "type": "feature",
             "properties": {
                 "id": "9",
-                "address": "2 Javaplein, Amsterdam, Netherlands"
+                "address": "2 Javaplein, Amsterdam, Netherlands",
+                "name": "OBA Javaplein"
             },
             "geometry": {
                 "type": "point",
@@ -115,7 +125,8 @@
             "type": "feature",
             "properties": {
                 "id": "10",
-                "address": "15 Koningin Julianalaan, Ouderkerk aan de Amstel, Netherlands"
+                "address": "15 Koningin Julianalaan, Ouderkerk aan de Amstel, Netherlands",
+                "name": "OBA Oudekerk"
             },
             "geometry": {
                 "type": "point",
@@ -126,7 +137,8 @@
             "type": "feature",
             "properties": {
                 "id": "11",
-                "address": "18 Laan Der Hesperiden, Amsterdam, Netherlands"
+                "address": "18 Laan Der Hesperiden, Amsterdam, Netherlands",
+                "name": "OBA Olympisch Kwartier"
             },
             "geometry": {
                 "type": "point",
@@ -137,7 +149,8 @@
             "type": "feature",
             "properties": {
                 "id": "12",
-                "address": "44 Linnaeusstraat, Amsterdam, Netherlands"
+                "address": "44 Linnaeusstraat, Amsterdam, Netherlands",
+                "name": "OBA linnaeus"
             },
             "geometry": {
                 "type": "point",
@@ -148,7 +161,8 @@
             "type": "feature",
             "properties": {
                 "id": "13",
-                "address": "89 Mercatorplein, Amsterdam, Netherlands"
+                "address": "89 Mercatorplein, Amsterdam, Netherlands",
+                "name": "OBA Mercatorplein"
             },
             "geometry": {
                 "type": "point",
@@ -159,7 +173,8 @@
             "type": "feature",
             "properties": {
                 "id": "14",
-                "address": "21 Molenwijk, Amsterdam, Netherlands"
+                "address": "21 Molenwijk, Amsterdam, Netherlands",
+                "name": "OBA Molenwijk"
             },
             "geometry": {
                 "type": "point",
@@ -170,7 +185,8 @@
             "type": "feature",
             "properties": {
                 "id": "15",
-                "address": "143 Oosterdokskade, Amsterdam, Netherlands"
+                "address": "143 Oosterdokskade, Amsterdam, Netherlands",
+                "name": "OBA Oosterdok (Centraal)"
             },
             "geometry": {
                 "type": "point",
@@ -181,7 +197,8 @@
             "type": "feature",
             "properties": {
                 "id": "16",
-                "address": "16 Osdorpplein, Amsterdam, Netherlands"
+                "address": "16 Osdorpplein, Amsterdam, Netherlands",
+                "name": "OBA Osdorp"
             },
             "geometry": {
                 "type": "point",
@@ -192,7 +209,8 @@
             "type": "feature",
             "properties": {
                 "id": "17",
-                "address": "87B Pieter Calandlaan, Amsterdam, Netherlands"
+                "address": "87B Pieter Calandlaan, Amsterdam, Netherlands",
+                "name": "OBA Slotervaart"
             },
             "geometry": {
                 "type": "point",
@@ -203,7 +221,8 @@
             "type": "feature",
             "properties": {
                 "id": "18",
-                "address": "430 Roelof Hartplein, Amsterdam, Netherlands"
+                "address": "430 Roelof Hartplein, Amsterdam, Netherlands",
+                "name": "OBA Roelof Hartplein"
             },
             "geometry": {
                 "type": "point",
@@ -214,7 +233,8 @@
             "type": "feature",
             "properties": {
                 "id": "19",
-                "address": "1 Rossumplein, Amsterdam, Netherlands"
+                "address": "1 Rossumplein, Amsterdam, Netherlands",
+                "name": "OBA Reigerbos"
             },
             "geometry": {
                 "type": "point",
@@ -225,7 +245,8 @@
             "type": "feature",
             "properties": {
                 "id": "20",
-                "address": "103 Slotermeerlaan, Amsterdam, Netherlands"
+                "address": "103 Slotermeerlaan, Amsterdam, Netherlands",
+                "name": "OBA Slotermeer"
             },
             "geometry": {
                 "type": "point",
@@ -236,7 +257,8 @@
             "type": "feature",
             "properties": {
                 "id": "21",
-                "address": "490 Spaarndammerstraat, Amsterdam, Netherlands"
+                "address": "490 Spaarndammerstraat, Amsterdam, Netherlands",
+                "name": "OBA Spaarndammerstraat"
             },
             "geometry": {
                 "type": "point",
@@ -247,7 +269,8 @@
             "type": "feature",
             "properties": {
                 "id": "22",
-                "address": "615 Van Hallstraat, Amsterdam, Netherlands"
+                "address": "615 Van Hallstraat, Amsterdam, Netherlands",
+                "name": "OBA Staatsliedenbuurt"
             },
             "geometry": {
                 "type": "point",
@@ -258,7 +281,8 @@
             "type": "feature",
             "properties": {
                 "id": "23",
-                "address": "302 Waterlandplein, Amsterdam, Netherlands"
+                "address": "302 Waterlandplein, Amsterdam, Netherlands",
+                "name": "OBA Waterlandplein"
             },
             "geometry": {
                 "type": "point",
@@ -269,7 +293,8 @@
             "type": "feature",
             "properties": {
                 "id": "24",
-                "address": "126 Wilhelminaplantsoen, Diemen, Netherlands"
+                "address": "126 Wilhelminaplantsoen, Diemen, Netherlands",
+                "name": "OBA Diemen"
             },
             "geometry": {
                 "type": "point",
@@ -280,7 +305,8 @@
             "type": "feature",
             "properties": {
                 "id": "25",
-                "address": "5 Willem Van Weldammelaan, Amsterdam, Netherlands"
+                "address": "5 Willem Van Weldammelaan, Amsterdam, Netherlands",
+                "name": "OBA Buitenveldert"
             },
             "geometry": {
                 "type": "point",

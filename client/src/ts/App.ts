@@ -3,6 +3,7 @@ import Navigo from 'navigo'
 import { handleErrorRoute } from './routes/error'
 import { M } from './utils/Engine'
 import { MasterView } from './views/MasterView'
+import { BuildingOverviewView } from './views/Building/BuildingOverviewView'
 
 interface Args {
     id?: string
@@ -54,7 +55,7 @@ export class App {
             }
 
             if (route === routes.building.overview) {
-                // Handle building route with id
+                new BuildingOverviewView({ router, host, id })
             }
 
             if (route === routes.building.floorplan) {

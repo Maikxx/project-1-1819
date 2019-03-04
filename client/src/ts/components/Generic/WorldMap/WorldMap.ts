@@ -1,16 +1,6 @@
 import { Component, DefaultProps } from '../../../utils/Component'
 import { M } from '../../../utils/Engine'
-
-export interface Feature {
-    type: string
-    properties: {
-        [key: string]: any
-    }
-    geometry: {
-        type: string
-        coordinates: number[]
-    }
-}
+import { Feature } from '../../../types/GeoJson'
 
 interface Props extends DefaultProps<Props> {
     host: HTMLElement
