@@ -31,13 +31,15 @@ export class App {
             router
                 .on({
                     [routes.index]: this.handleRoute(mainElement, router, routes.index),
+                    [routes.building.overview]: this.handleRoute(mainElement, router, routes.building.overview),
+                    [routes.building.floorplan]: this.handleRoute(mainElement, router, routes.building.floorplan),
+                    [routes.building.suggestions]: this.handleRoute(mainElement, router, routes.building.suggestions),
+                    [routes.building.availability]: this.handleRoute(mainElement, router, routes.building.availability),
                 })
                 .notFound(handleErrorRoute(mainElement, router))
 
             router.resolve()
         } catch (error) {
-            handleErrorRoute(mainElement, router)
-
             console.error(error)
             throw new Error(error)
         }
@@ -51,7 +53,7 @@ export class App {
                 new MasterView({ router, host })
             }
 
-            if (route === routes.building.index) {
+            if (route === routes.building.overview) {
                 // Handle building route with id
             }
 

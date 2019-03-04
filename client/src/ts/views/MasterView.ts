@@ -25,13 +25,13 @@ export class MasterView {
     }
 
     private renderWorldMap = () => {
-        const { host } = this.props
+        const { host, router } = this.props
 
         return new WorldMap({
             children: [],
             host,
             markers: obaLocations.features,
-            onMarkerClick: feature => console.log(feature.properties.id),
+            onMarkerClick: feature => router.navigate(`/building/${feature.properties.id}`),
         })
     }
 }
