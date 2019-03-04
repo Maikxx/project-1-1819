@@ -2,6 +2,7 @@ import { M } from '../utils/Engine'
 import { View } from '../components/Core/DataDisplay/View'
 import obaLocations from '../../../public/data/obaLocations.json'
 import { WorldMap } from '../components/Generic/WorldMap/WorldMap'
+import { PageHeader } from '../components/Chrome/PageHeader'
 
 interface Props {
     host: HTMLElement
@@ -14,11 +15,14 @@ export class MasterView {
     }
 
     public render() {
-        const { host } = this.props
+        const { host, router } = this.props
 
         M.render(
             new View({
-                children: [this.renderWorldMap()],
+                children: [
+                    new PageHeader({ router, children: [] }),
+                    this.renderWorldMap(),
+                ],
             }),
             host
         )

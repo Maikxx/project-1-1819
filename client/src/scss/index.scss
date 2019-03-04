@@ -53,4 +53,6 @@ table {
 	--color-yellow: #FCFCD4;
 }
 
-@import './WorldMap.scss';
+@import './components/WorldMap.scss';
+@import './components/PageHeader.scss';
+@import './components/Anchor.scss';

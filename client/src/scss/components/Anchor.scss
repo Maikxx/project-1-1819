@@ -1,0 +1,7 @@
+.Anchor {
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
