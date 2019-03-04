@@ -1,0 +1,35 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^24.0.9",
+    "@types/navigo": "^7.0.1",
+    "autoprefixer": "^9.4.7",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "concurrently": "^4.1.0",
+    "jest": "^24.1.0",
+    "parcel-bundler": "^1.11.0",
+    "ts-jest": "^24.0.0",
+    "tslint": "^5.12.1",
+    "tslint-eslint-rules": "^5.4.0",
+    "typescript": "^3.3.1",
+    "wait-on": "^3.2.0"
+  },
+  "scripts": {
+    "build": "yarn clear-dist && parcel build src/index.html --no-source-maps",
+    "clear-dist": "rm -rf dist/",
+    "open-chrome": "wait-on http://localhost:3000 && open -a \"Google Chrome\" http://localhost:3000",
+    "start-client": "yarn test && yarn clear-dist && concurrently \"yarn watch-client\" \"yarn open-chrome\" --raw",
+    "tslint": "tslint -p . -c tslint.json \"**/*.ts\" \"**/*.tsx\"",
+    "watch-client": "parcel src/index.html -p 3000",
+    "test": "jest",
+    "testWithCoverage": "jest --coverage"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "navigo": "^7.1.2"
+  }
+}

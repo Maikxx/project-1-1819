@@ -1,0 +1,11 @@
+{
+  "name": "minor-web-project-1",
+  "version": "1.0.0",
+  "repository": "git@github.com:Maikxx/project-1-1819.git",
+  "private": true,
+  "scripts": {
+    "start-client": "cd client && yarn start-client"
+  },
+  "author": "Maikel van Veen <maikeloo10@hotmail.com>",
+  "license": "MIT"
+}
