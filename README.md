@@ -7,8 +7,9 @@
     1. [Pre-install](#pre-install)
     2. [Install](#install)
 3. [Features 🔥](#features)
-4. [Technologies used 📦](#technologies-used)
-5. [License](#license)
+4. [Future enhancements](#future-enhancements)
+5. [Technologies used 📦](#technologies-used)
+6. [License](#license)
 
 ## Live demo
 
@@ -45,6 +46,10 @@ I choose to create a map with all the locations of the OBA on it, where you woul
 ## Features
 
 * Render a map with all the OBA locations on it.
+
+## Future enhancements
+
+* In a production build of this application, all of the OBA locations will need to be mapped into svgs and then to canvas. Unfortunately for now I only have the floorplans of the OBA Oosterdok location.
 
 ## Technologies used
 
