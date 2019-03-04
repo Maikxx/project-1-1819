@@ -15,4 +15,8 @@ export class Validator {
     public static isTruthyArray(value: any) {
         return Array.isArray(value) && value.length > 0
     }
+
+    public static isPromise(value: any) {
+        return !!value && (typeof value === 'object' || typeof value === 'function') && typeof value.then === 'function'
+    }
 }

@@ -9,7 +9,13 @@ export class M {
         if (Validator.isTypeOf(component, 'string')) {
             _node = document.createTextNode(component as string)
         } else if (component instanceof Component) {
-            const content = await component.render()
+            let content
+            if (Validator.isPromise(component)) {
+                content = await component.render()
+            } else {
+                content = component.render()
+            }
+
             _node = content
         } else {
             _node = component
