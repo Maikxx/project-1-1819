@@ -1,0 +1,18 @@
+#map-root {
+	height: 80vh;
+	margin: 10vh auto 0;
+	width: 80vw;
+}
+
+.map-marker {
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    background-color: var(--color-blue);
+    border: 5px solid var(--color-green);
+    transition: border-width ease-in-out .2s;
+
+    &:hover {
+        border-width: 10px;
+    }
+}

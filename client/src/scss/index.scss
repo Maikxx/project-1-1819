@@ -46,3 +46,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+:root {
+	--color-blue: #B1D4F7;
+	--color-green: #00C6B4;
+	--color-yellow: #FCFCD4;
+}
+
+@import './WorldMap.scss';

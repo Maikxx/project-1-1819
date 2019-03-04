@@ -2,6 +2,7 @@ import { routes } from './routes'
 import Navigo from 'navigo'
 import { handleErrorRoute } from './routes/error'
 import { M } from './utils/Engine'
+import { MasterView } from './views/MasterView'
 
 interface Args {
     id?: string
@@ -12,6 +13,7 @@ interface Args {
 export class App {
     constructor() {
         this.initializeRouter()
+        ; (mapboxgl as any).accessToken = 'pk.eyJ1IjoibWVsa2JvZXIiLCJhIjoiY2pydDZnemZrMGk2NTQ0bnB5N2FzYnY4ZSJ9.6Rz3rv9QYard69Bd1_onig'
     }
 
     private initializeRouter() {
@@ -28,7 +30,7 @@ export class App {
         try {
             router
                 .on({
-                    [routes.index]: this.handleRoute(mainElement, router),
+                    [routes.index]: this.handleRoute(mainElement, router, routes.index),
                 })
                 .notFound(handleErrorRoute(mainElement, router))
 
@@ -41,9 +43,29 @@ export class App {
         }
     }
 
-    private handleRoute(host: HTMLElement, router: Navigo) {
+    private handleRoute(host: HTMLElement, router: Navigo, route: string) {
         return function({ id, fid, sid }: Args) {
             M.resetComponent(host)
+
+            if (route === routes.index) {
+                new MasterView({ router, host })
+            }
+
+            if (route === routes.building.index) {
+                // Handle building route with id
+            }
+
+            if (route === routes.building.floorplan) {
+                // Handle building floorplan route with id and fid
+            }
+
+            if (route === routes.building.suggestions) {
+                // Handle building floorplan suggestion route with id, fid and sid
+            }
+
+            if (route === routes.building.availability) {
+                // Handle building floorplan suggestion availability route with id, fid and sid
+            }
         }
     }
 }

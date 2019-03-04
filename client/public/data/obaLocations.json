@@ -1,0 +1,291 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "feature",
+            "properties": {
+                "id": "0",
+                "address": "3 Albardakade, Amsterdam, Netherlands"
+            },
+            "geometry": {
+                "type": "point",
+                "coordinates": [4.80258, 52.378028]
+            }
+        },
+        {
+            "type": "feature",
+            "properties": {
+                "id": "1",
+                "address": "249 Bezaanjachtplein, Amsterdam, Netherlands"
+            },
+            "geometry": {
+                "type": "point",
+                "coordinates": [4.916947, 52.407734]
+            }
+        },
+        {
+            "type": "feature",
+            "properties": {
+                "id": "2",
+                "address": "393 Bijlmerplein, Amsterdam, Netherlands"
+            },
+            "geometry": {
+                "type": "point",
+                "coordinates": [4.953505, 52.315484]
+            }
+        },
+        {
+            "type": "feature",
+            "properties": {
+                "id": "3",
+                "address": "233 Bos en Lommerweg, Amsterdam, Netherlands"
+            },
+            "geometry": {
+                "type": "point",
+                "coordinates": [4.851215, 52.37874]
+            }
+        },
+        {
+            "type": "feature",
+            "properties": {
+                "id": "4",
+                "address": "1 Cullinanplein, Amsterdam, Netherlands"
+            },
+            "geometry": {
+                "type": "point",
+                "coordinates": [4.906314, 52.353348]
+            }
+        },
+        {
+            "type": "feature",
+            "properties": {
+                "id": "5",
+                "address": "79 Diemerparklaan, Amsterdam, Netherlands"
+            },
+            "geometry": {
+                "type": "point",
+                "coordinates": [4.996846, 52.356655]
+            }
+        },
+        {
+            "type": "feature",
+            "properties": {
+                "id": "6",
+                "address": "60 Dorpsplein, Duivendrecht, Netherlands"
+            },
+            "geometry": {
+                "type": "point",
+                "coordinates": [4.938356, 52.332594]
+            }
+        },
+        {
+            "type": "feature",
+            "properties": {
+                "id": "7",
+                "address": "1 Gentiaanstraat, Amsterdam, Netherlands"
+            },
+            "geometry": {
+                "type": "point",
+                "coordinates": [4.911795, 52.390938]
+            }
+        },
+        {
+            "type": "feature",
+            "properties": {
+                "id": "8",
+                "address": "10 Hannie Dankbaarpassage, Amsterdam, Netherlands"
+            },
+            "geometry": {
+                "type": "point",
+                "coordinates": [4.868733, 52.366663]
+            }
+        },
+        {
+            "type": "feature",
+            "properties": {
+                "id": "9",
+                "address": "2 Javaplein, Amsterdam, Netherlands"
+            },
+            "geometry": {
+                "type": "point",
+                "coordinates": [4.93888, 52.364146]
+            }
+        },
+        {
+            "type": "feature",
+            "properties": {
+                "id": "10",
+                "address": "15 Koningin Julianalaan, Ouderkerk aan de Amstel, Netherlands"
+            },
+            "geometry": {
+                "type": "point",
+                "coordinates": [4.907575, 52.295328]
+            }
+        },
+        {
+            "type": "feature",
+            "properties": {
+                "id": "11",
+                "address": "18 Laan Der Hesperiden, Amsterdam, Netherlands"
+            },
+            "geometry": {
+                "type": "point",
+                "coordinates": [4.855887, 52.345285]
+            }
+        },
+        {
+            "type": "feature",
+            "properties": {
+                "id": "12",
+                "address": "44 Linnaeusstraat, Amsterdam, Netherlands"
+            },
+            "geometry": {
+                "type": "point",
+                "coordinates": [4.926231, 52.358154]
+            }
+        },
+        {
+            "type": "feature",
+            "properties": {
+                "id": "13",
+                "address": "89 Mercatorplein, Amsterdam, Netherlands"
+            },
+            "geometry": {
+                "type": "point",
+                "coordinates": [4.850232, 52.369389]
+            }
+        },
+        {
+            "type": "feature",
+            "properties": {
+                "id": "14",
+                "address": "21 Molenwijk, Amsterdam, Netherlands"
+            },
+            "geometry": {
+                "type": "point",
+                "coordinates": [4.892971, 52.417806]
+            }
+        },
+        {
+            "type": "feature",
+            "properties": {
+                "id": "15",
+                "address": "143 Oosterdokskade, Amsterdam, Netherlands"
+            },
+            "geometry": {
+                "type": "point",
+                "coordinates": [4.908374, 52.375825]
+            }
+        },
+        {
+            "type": "feature",
+            "properties": {
+                "id": "16",
+                "address": "16 Osdorpplein, Amsterdam, Netherlands"
+            },
+            "geometry": {
+                "type": "point",
+                "coordinates": [4.806839, 52.358977]
+            }
+        },
+        {
+            "type": "feature",
+            "properties": {
+                "id": "17",
+                "address": "87B Pieter Calandlaan, Amsterdam, Netherlands"
+            },
+            "geometry": {
+                "type": "point",
+                "coordinates": [4.825593, 52.356038]
+            }
+        },
+        {
+            "type": "feature",
+            "properties": {
+                "id": "18",
+                "address": "430 Roelof Hartplein, Amsterdam, Netherlands"
+            },
+            "geometry": {
+                "type": "point",
+                "coordinates": [4.882572, 52.352587]
+            }
+        },
+        {
+            "type": "feature",
+            "properties": {
+                "id": "19",
+                "address": "1 Rossumplein, Amsterdam, Netherlands"
+            },
+            "geometry": {
+                "type": "point",
+                "coordinates": [4.976458, 52.296287]
+            }
+        },
+        {
+            "type": "feature",
+            "properties": {
+                "id": "20",
+                "address": "103 Slotermeerlaan, Amsterdam, Netherlands"
+            },
+            "geometry": {
+                "type": "point",
+                "coordinates": [4.819917, 52.378696]
+            }
+        },
+        {
+            "type": "feature",
+            "properties": {
+                "id": "21",
+                "address": "490 Spaarndammerstraat, Amsterdam, Netherlands"
+            },
+            "geometry": {
+                "type": "point",
+                "coordinates": [4.879999, 52.388909]
+            }
+        },
+        {
+            "type": "feature",
+            "properties": {
+                "id": "22",
+                "address": "615 Van Hallstraat, Amsterdam, Netherlands"
+            },
+            "geometry": {
+                "type": "point",
+                "coordinates": [4.872042, 52.379672]
+            }
+        },
+        {
+            "type": "feature",
+            "properties": {
+                "id": "23",
+                "address": "302 Waterlandplein, Amsterdam, Netherlands"
+            },
+            "geometry": {
+                "type": "point",
+                "coordinates": [4.954834, 52.393111]
+            }
+        },
+        {
+            "type": "feature",
+            "properties": {
+                "id": "24",
+                "address": "126 Wilhelminaplantsoen, Diemen, Netherlands"
+            },
+            "geometry": {
+                "type": "point",
+                "coordinates": [4.96122, 52.341511]
+            }
+        },
+        {
+            "type": "feature",
+            "properties": {
+                "id": "25",
+                "address": "5 Willem Van Weldammelaan, Amsterdam, Netherlands"
+            },
+            "geometry": {
+                "type": "point",
+                "coordinates": [4.875949, 52.332485]
+            }
+        }
+    ]
+}

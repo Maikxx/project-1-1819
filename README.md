@@ -44,7 +44,7 @@ I choose to create a map with all the locations of the OBA on it, where you woul
 
 ## Features
 
-<!-- TODO: Add features -->
+* Render a map with all the OBA locations on it.
 
 ## Technologies used
 
