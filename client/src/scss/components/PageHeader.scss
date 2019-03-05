@@ -1,6 +1,19 @@
 .PageHeader {
     padding: 24px 32px;
     border-top: 6px solid var(--color-oba-red);
+    position: relative;
+
+    &__title {
+        visibility: hidden;
+        position: absolute;
+        pointer-events: none;
+        top: 0;
+        left: 0;
+    }
+
+    &__logo {
+        max-height: 3em;
+    }
 
     &__nav {
         max-width: 988px;

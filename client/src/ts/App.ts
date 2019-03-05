@@ -33,7 +33,6 @@ export class App {
                 .on({
                     [routes.index]: this.handleRoute(mainElement, router, routes.index),
                     [routes.building.overview]: this.handleRoute(mainElement, router, routes.building.overview),
-                    [routes.building.floorplan]: this.handleRoute(mainElement, router, routes.building.floorplan),
                     [routes.building.suggestions]: this.handleRoute(mainElement, router, routes.building.suggestions),
                     [routes.building.availability]: this.handleRoute(mainElement, router, routes.building.availability),
                 })
@@ -56,10 +55,6 @@ export class App {
 
             if (route === routes.building.overview) {
                 new BuildingOverviewView({ router, host, id })
-            }
-
-            if (route === routes.building.floorplan) {
-                // Handle building floorplan route with id and fid
             }
 
             if (route === routes.building.suggestions) {

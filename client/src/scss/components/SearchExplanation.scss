@@ -1,0 +1,16 @@
+.SearchExplanation {
+    &__title {
+        font-weight: bold;
+        margin-bottom: 1em;
+    }
+
+    &__content-block {
+        + .SearchExplanation__content-block {
+            margin-top: .5em;
+        }
+    }
+
+    + .WorldMap {
+        margin-top: 2em;
+    }
+}

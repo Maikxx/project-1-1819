@@ -54,7 +54,13 @@ table {
 	--color-oba-red: #FE0000;
 }
 
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.25;
+}
+
 @import './components/WorldMap.scss';
 @import './components/PageHeader.scss';
 @import './components/WrapView.scss';
+@import './components/SearchExplanation.scss';
 @import './components/Anchor.scss';

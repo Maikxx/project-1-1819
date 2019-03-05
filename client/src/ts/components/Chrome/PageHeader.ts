@@ -6,6 +6,8 @@ import { ListItem } from '../Core/DataDisplay/ListItem'
 import { Heading } from '../Core/DataDisplay/Text/Heading'
 import { Anchor } from '../Core/DataDisplay/Text/Anchor'
 import Navigo from 'navigo'
+import OBA100Image from '../../../../public/assets/oba100-logo.jpg'
+import { Image } from '../Core/DataDisplay/Image'
 
 interface Props extends DefaultProps<Props> {
     router: Navigo
@@ -36,8 +38,15 @@ export class PageHeader extends Component<Props> {
                             children: [
                                 new Anchor({
                                     className: 'PageHeader__nav-link',
-                                    onClick: () => router.navigate('/'),
+                                    onClick: event => {
+                                        event.preventDefault()
+                                        router.navigate('/')
+                                    },
                                     children: [
+                                        new Image({
+                                            src: OBA100Image,
+                                            className: 'PageHeader__logo',
+                                        }),
                                         new Heading({
                                             className: 'PageHeader__title',
                                             children: ['OBA'],

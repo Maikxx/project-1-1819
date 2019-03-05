@@ -38,10 +38,9 @@ The ability to explore content of the OBA is pretty poor, especially when lookin
 I choose to create a map with all the locations of the OBA on it, where you would select a location of your choice, or accept the one that is nearest to your current location.
 
 1. When you select a location, you get to see a stacked view of floorplans, in order of floor level.
-2. When you hover over a floor, a pop-up is shown with the contents of that floor on a section based level.
-3. When you click on a floor, you get taken to a detail of that floor where you can explore the contents of that floor are shown on a section based level (for example, thriller books).
-4. When you click on a section, you get taken to a page which shows you suggestions. On this page you can also search by text for related books of within this topic.
-5. When you select a content item, you get taken to it's detail page with all the generic information about the book, while also showing you a map which shows on which locations of the OBA this content item is available at the time.
+2. You will now see a floor where you can explore the contents of this floor, split up in areas (for example Greek books).
+3. When you click on a section, you get taken to a page which shows you suggestions. On this page you can also search by text for related books of within this topic. The books that are shown on this page are always available in this vicinity.
+4. You can click on a item as usual, which takes you to the detail page of this item.
 
 ## Features
 

@@ -1,8 +1,8 @@
-import { Component, DefaultProps } from '../../../utils/Component'
-import { M } from '../../../utils/Engine'
-import { Feature } from '../../../types/GeoJson'
+import { Component } from '../../utils/Component'
+import { M } from '../../utils/Engine'
+import { Feature } from '../../types/GeoJson'
 
-interface Props extends DefaultProps<Props> {
+interface Props {
     host: HTMLElement
     markers?: any[]
     onMarkerClick?: (feature: Feature) => void
@@ -19,7 +19,7 @@ export class WorldMap extends Component<Props> {
     }
 
     public render = () => {
-        return M.create('div', { id: `map-root` })
+        return M.create('div', { id: `map-root`, className: 'WorldMap' })
     }
 
     private observeMap = () => {
