@@ -51,8 +51,10 @@ table {
 	--color-blue: #B1D4F7;
 	--color-green: #00C6B4;
 	--color-yellow: #FCFCD4;
+	--color-oba-red: #FE0000;
 }
 
 @import './components/WorldMap.scss';
 @import './components/PageHeader.scss';
+@import './components/WrapView.scss';
 @import './components/Anchor.scss';

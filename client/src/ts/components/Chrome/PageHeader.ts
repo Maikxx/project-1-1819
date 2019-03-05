@@ -49,8 +49,47 @@ export class PageHeader extends Component<Props> {
                         }),
                     ],
                 }),
+                this.renderMetaNav(),
             ]),
         ]
+    }
+
+    private renderMetaNav = () => {
+        return new List({
+            className: 'PageHeader__meta-nav',
+            children: [
+                new ListItem({
+                    className: 'PageHeader__meta-nav-list-item',
+                    children: [
+                        new Anchor({
+                            className: 'PageHeader__meta-nav-link',
+                            href: 'https://www.oba.nl/veelgestelde-vragen.html',
+                            children: ['FAQ'],
+                        }),
+                    ],
+                }),
+                new ListItem({
+                    className: 'PageHeader__meta-nav-list-item',
+                    children: [
+                        new Anchor({
+                            className: 'PageHeader__meta-nav-link',
+                            href: 'https://www.oba.nl/contactgegevens.html',
+                            children: ['Contact'],
+                        }),
+                    ],
+                }),
+                new ListItem({
+                    className: 'PageHeader__meta-nav-list-item',
+                    children: [
+                        new Anchor({
+                            className: 'PageHeader__meta-nav-link',
+                            href: 'https://www.oba.nl/service/lidmaatschap-en-tarieven/word-lid.html',
+                            children: ['Word lid'],
+                        }),
+                    ],
+                }),
+            ],
+        })
     }
 
     private getClassNames() {

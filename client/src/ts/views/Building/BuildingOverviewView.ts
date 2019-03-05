@@ -1,8 +1,8 @@
 import { M } from '../../utils/Engine'
-import { View } from '../../components/Core/DataDisplay/View'
 import obaLocations from '../../../../public/data/obaLocations.json'
 import { BuildingsGeoJson } from '../../types/GeoJson'
 import { PageHeader } from '../../components/Chrome/PageHeader'
+import { WrapView } from '../../components/Core/DataDisplay/WrapView'
 
 interface Props {
     host: HTMLElement
@@ -25,10 +25,11 @@ export class BuildingOverviewView {
             return
         }
 
+        M.render(new PageHeader({ router, children: [] }), host)
+
         M.render(
-            new View({
+            new WrapView({
                 children: [
-                    new PageHeader({ router, children: [] }),
                     M.create('h1', {}, [`You have selected ${locationName} with address: ${locationAddress}`]),
                 ],
             }),

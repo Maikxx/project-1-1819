@@ -1,4 +1,45 @@
 .PageHeader {
     padding: 24px 32px;
-    border-bottom: 1px solid var(--color-green);
+    border-top: 6px solid var(--color-oba-red);
+
+    &__nav {
+        max-width: 988px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        &-link {
+            color: #000000;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    &__meta-nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        &-list-item {
+            padding: 0 6px;
+
+            + .PageHeader__meta-nav-list-item  {
+                border-left: 1px solid #AAAAAA;
+            }
+        }
+
+        &-link {
+            color: #000000;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
 }

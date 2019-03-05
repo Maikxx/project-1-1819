@@ -3,6 +3,7 @@ import { M } from '../../../../utils/Engine'
 
 interface Props extends DefaultProps<Props> {
     onClick?: (event: Event) => void
+    href?: string
 }
 
 export class Anchor extends Component<Props> {
@@ -11,11 +12,12 @@ export class Anchor extends Component<Props> {
     }
 
     public render = () => {
-        const { onClick, children } = this.props
+        const { onClick, children, href } = this.props
 
         return M.create('a', {
             'event:click': onClick,
             className: this.getClassNames(),
+            href,
         }, ...children)
     }
 
