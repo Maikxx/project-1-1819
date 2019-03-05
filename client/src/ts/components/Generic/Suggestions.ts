@@ -69,30 +69,34 @@ export class Suggestions extends Component<Props> {
                         isBlock: true,
                     }))
                 }
+
+                const metaChildren = []
+
                 if (suggestion.format) {
-                    children.push(new Paragraph({
-                        children: [translateSuggestionKey('type', suggestion.format)],
-                        isBlock: true,
+                    metaChildren.push(new Paragraph({
+                        children: [`Type: ${translateSuggestionKey('type', suggestion.format)}`],
                     }))
                 }
+
                 if (suggestion.subject) {
-                    children.push(new Paragraph({
-                        children: [suggestion.subject],
-                        isBlock: true,
+                    metaChildren.push(new Paragraph({
+                        children: [`Onderwerp: ${suggestion.subject}`],
                     }))
                 }
+
                 if (suggestion.series) {
-                    children.push(new Paragraph({
-                        children: [TransformString.capitalize(suggestion.series)],
-                        isBlock: true,
+                    metaChildren.push(new Paragraph({
+                        children: [`Serie: ${TransformString.capitalize(suggestion.series)}`],
                     }))
                 }
+
                 if (suggestion.targetAudience) {
-                    children.push(new Paragraph({
-                        children: [translateSuggestionKey('targetAudience', suggestion.targetAudience)],
-                        isBlock: true,
+                    metaChildren.push(new Paragraph({
+                        children: [`Doelgroep: ${translateSuggestionKey('targetAudience', suggestion.targetAudience)}`],
                     }))
                 }
+
+                children.push(M.create('div', { className: 'Suggestions__list-meta' }, metaChildren))
 
                 return new ListItem({
                     className: 'Suggestions__list-item',

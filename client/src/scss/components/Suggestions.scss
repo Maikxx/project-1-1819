@@ -12,5 +12,15 @@
                 margin-left: 10%;
             }
         }
+
+        &-meta {
+            display: flex;
+            flex-direction: column;
+
+            > * + * {
+                display: block;
+                margin-top: .25rem;
+            }
+        }
     }
 }
