@@ -3,7 +3,7 @@ import { Component } from '../../../utils/Component'
 
 interface Props {
     className?: string
-    src: string
+    src?: string
 }
 
 export class Image extends Component<Props> {

@@ -3,10 +3,13 @@ import { M } from '../../utils/Engine'
 import { List } from '../Core/DataDisplay/List'
 import { ListItem } from '../Core/DataDisplay/ListItem'
 import { API } from '../../../../../node_modules/oba-wrapper/js/index.js'
-import { getTransformedResultFromResults } from '../../utils/TransformData'
+import { getTransformedResultFromResults, translateSuggestionKey } from '../../utils/TransformData'
 import { TransformArray } from '../../utils/TransformArray'
 import { TransformedData } from '../../types/Data'
 import { Paragraph } from '../Core/DataDisplay/Text/Paragraph'
+import { Image } from '../Core/DataDisplay/Image'
+import { Heading } from '../Core/DataDisplay/Text/Heading'
+import { TransformString } from '../../utils/TransformString'
 
 interface Props {
     id: string
@@ -40,43 +43,63 @@ export class Suggestions extends Component<Props> {
 
         M.render(new List({
             className: 'Suggestions__list',
-            children: suggestions.map(suggestion => new ListItem({
-                className: 'Suggestions__list-item',
-                children: [
-                    new Paragraph({
-                        children: [`Auteur: ${suggestion.author || ''}`],
+            children: suggestions.map(suggestion => {
+                const children = []
+
+                if (suggestion.title) {
+                    children.push(new Heading({
+                        children: [suggestion.title],
+                        level: 3,
+                    }))
+                }
+
+                if (suggestion.image) {
+                    children.push(new Image({ src: suggestion.image }))
+                }
+
+                if (suggestion.author) {
+                    children.push(new Paragraph({
+                        children: [suggestion.author],
                         isBlock: true,
-                    }),
-                    new Paragraph({
-                        children: [`Bestandsformaat: ${suggestion.format || ''}`],
+                    }))
+                }
+                if (suggestion.summary) {
+                    children.push(new Paragraph({
+                        children: [suggestion.summary],
                         isBlock: true,
-                    }),
-                    new Paragraph({
-                        children: [`Afbeelding: ${suggestion.image || ''}`],
+                    }))
+                }
+                if (suggestion.format) {
+                    children.push(new Paragraph({
+                        children: [translateSuggestionKey('type', suggestion.format)],
                         isBlock: true,
-                    }),
-                    new Paragraph({
-                        children: [`Serie: ${suggestion.series || ''}`],
+                    }))
+                }
+                if (suggestion.subject) {
+                    children.push(new Paragraph({
+                        children: [suggestion.subject],
                         isBlock: true,
-                    }),
-                    new Paragraph({
-                        children: [`Onderwerp: ${suggestion.subject || ''}`],
+                    }))
+                }
+                if (suggestion.series) {
+                    children.push(new Paragraph({
+                        children: [TransformString.capitalize(suggestion.series)],
                         isBlock: true,
-                    }),
-                    new Paragraph({
-                        children: [`Omschrijving: ${suggestion.summary || ''}`],
+                    }))
+                }
+                if (suggestion.targetAudience) {
+                    children.push(new Paragraph({
+                        children: [translateSuggestionKey('targetAudience', suggestion.targetAudience)],
                         isBlock: true,
-                    }),
-                    new Paragraph({
-                        children: [`Doelgroep: ${suggestion.targetAudience || ''}`],
-                        isBlock: true,
-                    }),
-                    new Paragraph({
-                        children: [`Titel: ${suggestion.title || ''}`],
-                        isBlock: true,
-                    }),
-                ],
-            })),
+                    }))
+                }
+
+                return new ListItem({
+                    className: 'Suggestions__list-item',
+                    children,
+                })
+            }
+        ),
         }), suggestionsElement)
 
         M.toggleLoader(host)

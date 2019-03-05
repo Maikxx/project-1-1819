@@ -1,1 +1,16 @@
-.Suggestions {}
+.Suggestions {
+    &__list {
+        display: flex;
+        flex-direction: row;
+        overflow-x: scroll;
+        padding-bottom: 2rem;
+
+        &-item {
+            min-width: 33%;
+
+            + .Suggestions__list-item {
+                margin-left: 10%;
+            }
+        }
+    }
+}

@@ -59,6 +59,10 @@ body {
 	line-height: 1.25;
 }
 
+::-webkit-scrollbar {
+	display: none;
+}
+
 @import './components/WorldMap.scss';
 @import './components/PageHeader.scss';
 @import './components/WrapView.scss';

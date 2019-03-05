@@ -70,3 +70,41 @@ export const getTransformedResultFromResults = (results: any[]) => {
         }))
         : []
 }
+
+const translations = {
+    type: {
+        Activiteiten: 'Activiteiten',
+        Audiovisual: 'Audiovisueel',
+        sheetmusic: 'Bladmuziek',
+        book: 'Boek',
+        bookwithcassette: 'Boek met cassette',
+        bookwithcd: 'Boek met cd',
+        cassette: 'Cassette',
+        cd: 'CD',
+        cdrom: 'CD-ROM',
+        computerfile: 'Computer bestand',
+        Cursus: 'Cursus',
+        daisyrom: 'Daisy-rom',
+        dvdvideo: 'DVD',
+        ebook: 'EBook',
+        movie: 'Film',
+        photo: 'Foto',
+        largetype: 'Tekst',
+        kit: 'Kit',
+        audiobook: 'Audioboek',
+        website: 'Website',
+        schooltv: 'Schooltv',
+        magazine: 'Magazine',
+        excerpt: 'Uittreksel',
+        video: 'Video',
+    },
+    targetAudience: {
+        ageYouth: 'Jeugd',
+        ageAdults: 'Volwassenen',
+        ageYoungAdults: 'Jongvolwassenen',
+    },
+}
+
+export function translateSuggestionKey(key: string, value: string) {
+    return translations[key][value]
+}

@@ -3,7 +3,6 @@ import obaLocations from '../../../../public/data/obaLocations.json'
 import { BuildingsGeoJson } from '../../types/GeoJson'
 import { PageHeader } from '../../components/Chrome/PageHeader'
 import { WrapView } from '../../components/Core/DataDisplay/WrapView'
-import { Paragraph } from '../../components/Core/DataDisplay/Text/Paragraph'
 import { Heading } from '../../components/Core/DataDisplay/Text/Heading'
 import { Anchor } from '../../components/Core/DataDisplay/Text/Anchor'
 
@@ -34,12 +33,8 @@ export class BuildingOverviewView {
             new WrapView({
                 children: [
                     new Heading({
-                        children: [`Je hebt ${locationName} geselecteerd.`],
+                        children: [locationName],
                         level: 2,
-                    }),
-                    new Paragraph({
-                        children: [`${locationName} kunt u vinden op het volgende adres: ${locationAddress}`],
-                        isBlock: true,
                     }),
                     new Anchor({
                         children: ['Zoek effe wat'],

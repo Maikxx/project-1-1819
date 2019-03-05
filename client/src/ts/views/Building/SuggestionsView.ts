@@ -37,12 +37,8 @@ export class SuggestionsView {
             new WrapView({
                 children: [
                     new Heading({
-                        children: [`Je hebt ${locationName} geselecteerd.`],
+                        children: [locationName],
                         level: 2,
-                    }),
-                    new Paragraph({
-                        children: [`${locationName} kunt u vinden op het volgende adres: ${locationAddress}`],
-                        isBlock: true,
                     }),
                     new Paragraph({
                         children: [`De etage die u hebt geselecteerd is: ${floorId} en de sectie die u hebt geselecteerd is ${sectionId}.`],
