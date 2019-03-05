@@ -4,11 +4,12 @@ import { handleErrorRoute } from './routes/error'
 import { M } from './utils/Engine'
 import { MasterView } from './views/MasterView'
 import { BuildingOverviewView } from './views/Building/BuildingOverviewView'
+import { SuggestionsView } from './views/Building/SuggestionsView'
 
-interface Args {
+export interface RouteParams {
     id?: string
-    sid?: string
-    fid?: string
+    floorId?: string
+    sectionId?: string
 }
 
 export class App {
@@ -34,7 +35,6 @@ export class App {
                     [routes.index]: this.handleRoute(mainElement, router, routes.index),
                     [routes.building.overview]: this.handleRoute(mainElement, router, routes.building.overview),
                     [routes.building.suggestions]: this.handleRoute(mainElement, router, routes.building.suggestions),
-                    [routes.building.availability]: this.handleRoute(mainElement, router, routes.building.availability),
                 })
                 .notFound(handleErrorRoute(mainElement, router))
 
@@ -46,7 +46,7 @@ export class App {
     }
 
     private handleRoute(host: HTMLElement, router: Navigo, route: string) {
-        return function({ id, fid, sid }: Args) {
+        return function({ id, floorId, sectionId }: RouteParams) {
             M.resetComponent(host)
 
             if (route === routes.index) {
@@ -58,11 +58,11 @@ export class App {
             }
 
             if (route === routes.building.suggestions) {
-                // Handle building floorplan suggestion route with id, fid and sid
-            }
+                if (!id || !floorId || !sectionId) {
+                    return
+                }
 
-            if (route === routes.building.availability) {
-                // Handle building floorplan suggestion availability route with id, fid and sid
+                new SuggestionsView({ router, host, id, floorId, sectionId })
             }
         }
     }

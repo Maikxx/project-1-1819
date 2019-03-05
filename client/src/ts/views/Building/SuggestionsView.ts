@@ -5,21 +5,23 @@ import { PageHeader } from '../../components/Chrome/PageHeader'
 import { WrapView } from '../../components/Core/DataDisplay/WrapView'
 import { Paragraph } from '../../components/Core/DataDisplay/Text/Paragraph'
 import { Heading } from '../../components/Core/DataDisplay/Text/Heading'
-import { Anchor } from '../../components/Core/DataDisplay/Text/Anchor'
+import { Suggestions } from '../../components/Generic/Suggestions'
 
 interface Props {
     host: HTMLElement
     router: Navigo
-    id?: string
+    id: string
+    floorId: string
+    sectionId: string
 }
 
-export class BuildingOverviewView {
+export class SuggestionsView {
     constructor(private props: Props) {
         this.render()
     }
 
-    public render() {
-        const { host, id, router } = this.props
+    public async render() {
+        const { host, id, router, floorId, sectionId } = this.props
         const location = (obaLocations as BuildingsGeoJson).features.find(feature => id === feature.properties.id)
         const locationAddress = location && location.properties.address
         const locationName = location && location.properties.name
@@ -29,6 +31,7 @@ export class BuildingOverviewView {
         }
 
         M.render(new PageHeader({ router, children: [] }), host)
+        M.toggleLoader(host)
 
         M.render(
             new WrapView({
@@ -41,11 +44,11 @@ export class BuildingOverviewView {
                         children: [`${locationName} kunt u vinden op het volgende adres: ${locationAddress}`],
                         isBlock: true,
                     }),
-                    new Anchor({
-                        children: ['Zoek effe wat'],
-                        shouldPreventDefault: true,
-                        onClick: () => router.navigate(`/building/${id}/1/1`),
+                    new Paragraph({
+                        children: [`De etage die u hebt geselecteerd is: ${floorId} en de sectie die u hebt geselecteerd is ${sectionId}.`],
+                        isBlock: true,
                     }),
+                    new Suggestions({ id, floorId, sectionId, host }),
                 ],
             }),
             host

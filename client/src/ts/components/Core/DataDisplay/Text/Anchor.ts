@@ -4,6 +4,7 @@ import { M } from '../../../../utils/Engine'
 interface Props extends DefaultProps<Props> {
     onClick?: (event: Event) => void
     href?: string
+    shouldPreventDefault?: boolean
 }
 
 export class Anchor extends Component<Props> {
@@ -12,13 +13,25 @@ export class Anchor extends Component<Props> {
     }
 
     public render = () => {
-        const { onClick, children, href } = this.props
+        const { children, href } = this.props
 
         return M.create('a', {
-            'event:click': onClick,
+            'event:click': this.handleClickEvent,
             className: this.getClassNames(),
             href,
         }, ...children)
+    }
+
+    private handleClickEvent = (event: Event) => {
+        const { shouldPreventDefault, onClick } = this.props
+
+        if (shouldPreventDefault) {
+            event.preventDefault()
+        }
+
+        if (onClick) {
+            onClick(event)
+        }
     }
 
     private getClassNames() {

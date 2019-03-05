@@ -19,16 +19,26 @@ export class SearchExplanation extends Component<Props> {
                 level: 2,
                 children: ['Doorzoek de bibliotheekcatalogus van de Openbare Bibliotheek Amsterdam'],
             }),
-            new Paragraph({ className: `SearchExplanation__content-block`, children: [
-                `1. Selecteer een locatie op de kaart hieronder waarbinnen u graag op onderzoek uit zou willen gaan.`,
-            ]}),
-            new Paragraph({ className: `SearchExplanation__content-block`, children: [
-                `2. Vervolgens krijgt u een representatie van het gebouw te zien per etage, met binnen iedere etage alle secties die bekend zijn.`,
-            ]}),
-            new Paragraph({ className: `SearchExplanation__content-block`, children: [
-                `3. Als u een sectie hebt gevonden waarvan u graag suggesties krijgt,${``}
-                klikt u daarop en krijgt u de suggesties te zien die in deze bibliotheek beschikbaar zijn.`,
-            ]}),
+            new Paragraph({
+                isBlock: true,
+                children: [
+                    `1. Selecteer een locatie op de kaart hieronder waarbinnen u graag op onderzoek uit zou willen gaan.`,
+                ],
+            }),
+            new Paragraph({
+                isBlock: true,
+                children: [
+                    `2. Vervolgens krijgt u een representatie van het gebouw te zien per etage,${` `}
+                    met binnen iedere etage alle secties die bekend zijn.`,
+                ],
+            }),
+            new Paragraph({
+                isBlock: true,
+                children: [
+                    `3. Als u een sectie hebt gevonden waarvan u graag suggesties krijgt,${``}
+                    klikt u daarop en krijgt u de suggesties te zien die in deze bibliotheek beschikbaar zijn.`,
+                ],
+            }),
         ])
     }
 

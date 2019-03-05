@@ -4288,7 +4288,7 @@ oauth-sign@~0.9.0:
 
 "oba-wrapper@github:maanlamp/OBA-wrapper":
   version "1.0.0"
-  resolved "https://codeload.github.com/maanlamp/OBA-wrapper/tar.gz/318a67e70eb7dda2a80d7b888cfcbfe1791dc88a"
+  resolved "https://codeload.github.com/maanlamp/OBA-wrapper/tar.gz/c77cdf8d18be18813013e3587b29bb279fdd1584"
 
 object-assign@^4.0.1, object-assign@^4.1.0, object-assign@^4.1.1:
   version "4.1.1"
