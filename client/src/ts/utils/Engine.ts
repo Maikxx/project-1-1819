@@ -76,7 +76,6 @@ export const ALLOWED_TAGS_PER_ATTRIBUTE = [
     { attr: 'min', tags: [ 'input', 'meter' ] },
     { attr: 'multiple', tags: [ 'input', 'select' ] },
     { attr: 'muted', tags: [ 'audio', 'video' ] },
-    // tslint:disable-next-line:ter-max-len
     { attr: 'name', tags: [ 'button', 'form', 'fieldset', 'iframe', 'input', 'keygen', 'object', 'output', 'select', 'textarea', 'map', 'meta', 'param' ] },
     { attr: 'novalidate', tags: ['form'] },
     { attr: 'open', tags: ['details'] },
@@ -84,6 +83,7 @@ export const ALLOWED_TAGS_PER_ATTRIBUTE = [
     { attr: 'pattern', tags: ['input'] },
     { attr: 'ping', tags: [ 'a', 'area' ] },
     { attr: 'placeholder', tags: [ 'input', 'textarea' ] },
+    { attr: 'points', tags: [ 'polygon', 'polyline' ] },
     { attr: 'poster', tags: ['video'] },
     { attr: 'preload', tags: [ 'audio', 'video' ] },
     { attr: 'radiogroup', tags: ['command'] },
@@ -116,15 +116,18 @@ export const ALLOWED_TAGS_PER_ATTRIBUTE = [
     { attr: 'target', tags: [ 'a', 'area', 'base', 'form' ] },
     { attr: 'title', tags: '*' },
     { attr: 'translate', tags: '*' },
+    { attr: 'transform', tags: [ 'svg', 'g', 'text', 'path', 'polygon' ] },
     { attr: 'type', tags: [ 'button', 'input', 'command', 'embed', 'object', 'script', 'source', 'style', 'menu' ] },
     { attr: 'usemap', tags: [ 'img', 'input', 'object' ] },
     { attr: 'value', tags: [ 'button', 'option', 'input', 'li', 'meter', 'progress', 'param' ] },
+    { attr: 'viewBox', tags: ['svg'] },
     { attr: 'width', tags: [ 'canvas', 'embed', 'iframe', 'img', 'input', 'object', 'video' ] },
     { attr: 'wrap', tags: ['textarea'] },
+    { attr: 'xmlns', tags: ['svg'] },
 ]
 
 export class M {
-    public static async render(component: HTMLElement | string | Component<any> | Element, host: HTMLElement | Element) {
+    public static async render(component: HTMLElement | SVGElement | string | Component<any> | Element, host: HTMLElement | Element | SVGElement) {
         let _node
         if (Validator.isTypeOf(component, 'string')) {
             _node = document.createTextNode(component as string)
@@ -151,9 +154,17 @@ export class M {
     }
 
     public static create(component: string | Function, properties: Object, ...children: any[]) {
-        const _node: HTMLElement = Validator.isTypeOf(component, 'function')
-            ? (component as any)(properties, children)
-            : document.createElement(component as string)
+        let _node: HTMLElement | SVGElement
+
+        if (Validator.isTypeOf(component, 'function')) {
+            _node = (component as any)(properties, children)
+        } else {
+            if (Validator.isSvgElement(component as string)) {
+                _node = document.createElementNS('http://www.w3.org/2000/svg', component as string)
+            } else {
+                _node = document.createElement(component as string)
+            }
+        }
 
         if (properties) {
             Object.entries(properties).forEach(M.parseAttribute(_node))
@@ -169,7 +180,7 @@ export class M {
         return _node
     }
 
-    public static parseAttribute(_node: HTMLElement) {
+    public static parseAttribute(_node: HTMLElement | SVGElement) {
         return function ([ attribute, attributeValue ]: [string, any]) {
             if (attribute.includes('event:')) {
                 const [ , event ] = attribute.split(':')
@@ -183,11 +194,11 @@ export class M {
         }
     }
 
-    public static resetComponent(component: HTMLElement | Element) {
+    public static resetComponent(component: HTMLElement | Element | SVGElement) {
         component.innerHTML = ''
     }
 
-    public static toggleLoader(host: HTMLElement) {
+    public static toggleLoader(host: HTMLElement | SVGElement) {
         const loaderElement = host.querySelector('.Loader')
         if (!loaderElement) {
             M.render(new Loader({}), host)
@@ -208,10 +219,12 @@ export class M {
         })
 
         if (!currentAttribute) {
-            throw new Error(`
-                You have either passed an invalid property called: ${attribute},${` `}
-                or you have forgotten to handle this custom property.
-            `)
+            if (!attribute.includes('data')) {
+                throw new Error(`
+                    You have either passed an invalid property called: ${attribute},${` `}
+                    or you have forgotten to handle this custom property.
+                `)
+            }
         } else if (Array.isArray(currentAttribute.tags) && !currentAttribute.tags.includes(tagName.toLowerCase())) {
             throw new Error(`
                 You have passed an invalid property called: ${attribute} to ${tagName}.

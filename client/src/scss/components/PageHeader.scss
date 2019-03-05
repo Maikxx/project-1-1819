@@ -22,15 +22,6 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-
-        &-link {
-            color: #000000;
-            text-decoration: none;
-
-            &:hover {
-                text-decoration: underline;
-            }
-        }
     }
 
     &__meta-nav {
@@ -43,15 +34,6 @@
 
             + .PageHeader__meta-nav-list-item  {
                 border-left: 1px solid #AAAAAA;
-            }
-        }
-
-        &-link {
-            color: #000000;
-            text-decoration: none;
-
-            &:hover {
-                text-decoration: underline;
             }
         }
     }

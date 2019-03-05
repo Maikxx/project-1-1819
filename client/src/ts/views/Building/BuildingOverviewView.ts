@@ -4,6 +4,7 @@ import { BuildingsGeoJson } from '../../types/GeoJson'
 import { PageHeader } from '../../components/Chrome/PageHeader'
 import { WrapView } from '../../components/Core/DataDisplay/WrapView'
 import { Heading } from '../../components/Core/DataDisplay/Text/Heading'
+import { SubZeroFloor } from '../../components/Floors/Oosterdok/SubZeroFloor'
 import { Anchor } from '../../components/Core/DataDisplay/Text/Anchor'
 
 interface Props {
@@ -23,27 +24,39 @@ export class BuildingOverviewView {
         const locationAddress = location && location.properties.address
         const locationName = location && location.properties.name
 
-        if (!locationAddress) {
+        if (!locationAddress || !id) {
             return
         }
 
         M.render(new PageHeader({ router, children: [] }), host)
 
-        M.render(
-            new WrapView({
+        // Location is Oosterdok
+        if (id === '15') {
+            M.render(
+                new WrapView({
+                    children: [
+                        new Heading({
+                            children: [locationName],
+                            level: 2,
+                        }),
+                        new SubZeroFloor({ id, router }),
+                    ],
+                }),
+                host
+            )
+        } else {
+            M.render(new WrapView({
                 children: [
                     new Heading({
-                        children: [locationName],
+                        children: ['Helaas, deze locatie heeft nog geen plattegronden.'],
                         level: 2,
                     }),
                     new Anchor({
-                        children: ['Zoek effe wat'],
-                        shouldPreventDefault: true,
-                        onClick: () => router.navigate(`/building/${id}/1/1`),
+                        children: ['U kunt hier klikken om terug te gaan.'],
+                        onClick: () => router.navigate('/'),
                     }),
                 ],
-            }),
-            host
-        )
+            }), host)
+        }
     }
 }

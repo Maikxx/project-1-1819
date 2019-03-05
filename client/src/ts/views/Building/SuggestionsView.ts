@@ -3,7 +3,6 @@ import obaLocations from '../../../../public/data/obaLocations.json'
 import { BuildingsGeoJson } from '../../types/GeoJson'
 import { PageHeader } from '../../components/Chrome/PageHeader'
 import { WrapView } from '../../components/Core/DataDisplay/WrapView'
-import { Paragraph } from '../../components/Core/DataDisplay/Text/Paragraph'
 import { Heading } from '../../components/Core/DataDisplay/Text/Heading'
 import { Suggestions } from '../../components/Generic/Suggestions'
 
@@ -11,8 +10,7 @@ interface Props {
     host: HTMLElement
     router: Navigo
     id: string
-    floorId: string
-    sectionId: string
+    query: string
 }
 
 export class SuggestionsView {
@@ -21,7 +19,7 @@ export class SuggestionsView {
     }
 
     public async render() {
-        const { host, id, router, floorId, sectionId } = this.props
+        const { host, id, router, query } = this.props
         const location = (obaLocations as BuildingsGeoJson).features.find(feature => id === feature.properties.id)
         const locationAddress = location && location.properties.address
         const locationName = location && location.properties.name
@@ -40,11 +38,7 @@ export class SuggestionsView {
                         children: [locationName],
                         level: 2,
                     }),
-                    new Paragraph({
-                        children: [`De etage die u hebt geselecteerd is: ${floorId} en de sectie die u hebt geselecteerd is ${sectionId}.`],
-                        isBlock: true,
-                    }),
-                    new Suggestions({ id, floorId, sectionId, host }),
+                    new Suggestions({ id, query, host }),
                 ],
             }),
             host

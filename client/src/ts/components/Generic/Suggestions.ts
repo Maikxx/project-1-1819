@@ -13,8 +13,7 @@ import { TransformString } from '../../utils/TransformString'
 
 interface Props {
     id: string
-    floorId: string
-    sectionId: string
+    query: string
     host: HTMLElement
 }
 

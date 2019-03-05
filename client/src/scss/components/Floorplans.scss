@@ -1,0 +1,28 @@
+.Building {
+    max-height: 300px;
+    margin: 0 auto;
+
+    &__outline {
+        fill: none;
+        stroke: #000000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 5px;
+    }
+
+    &__text {
+        font-size: 6rem;
+        fill: #FFFFFF;
+        pointer-events: none;
+    }
+
+    &__clickable-shape {
+        fill: var(--color-green);
+        transition: fill .2s ease-in-out;
+        cursor: pointer;
+
+        &:hover {
+            fill: darken(#00C6B4, 5%)
+        }
+    }
+}

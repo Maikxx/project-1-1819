@@ -8,8 +8,7 @@ import { SuggestionsView } from './views/Building/SuggestionsView'
 
 export interface RouteParams {
     id?: string
-    floorId?: string
-    sectionId?: string
+    query?: string
 }
 
 export class App {
@@ -46,7 +45,7 @@ export class App {
     }
 
     private handleRoute(host: HTMLElement, router: Navigo, route: string) {
-        return function({ id, floorId, sectionId }: RouteParams) {
+        return function({ id, query }: RouteParams) {
             M.resetComponent(host)
 
             if (route === routes.index) {
@@ -58,11 +57,11 @@ export class App {
             }
 
             if (route === routes.building.suggestions) {
-                if (!id || !floorId || !sectionId) {
+                if (!id || !query) {
                     return
                 }
 
-                new SuggestionsView({ router, host, id, floorId, sectionId })
+                new SuggestionsView({ router, host, id, query })
             }
         }
     }

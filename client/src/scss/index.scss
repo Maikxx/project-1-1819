@@ -20,7 +20,7 @@ time, mark, audio, video {
 }
 
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+footer, header, hgroup, menu, nav, section, svg, g {
 	display: block;
 }
 
@@ -72,3 +72,4 @@ body {
 @import './components/Suggestions.scss';
 @import './components/Heading.scss';
 @import './components/Paragraph.scss';
+@import './components/Floorplans.scss';
