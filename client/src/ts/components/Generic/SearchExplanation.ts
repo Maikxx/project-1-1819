@@ -22,7 +22,8 @@ export class SearchExplanation extends Component<Props> {
             new Paragraph({
                 isBlock: true,
                 children: [
-                    `1. Selecteer een locatie op de kaart hieronder waarbinnen u graag op onderzoek uit zou willen gaan.`,
+                    `1. Selecteer een locatie op de kaart hieronder waarbinnen u graag op onderzoek uit zou willen gaan.${` `}
+                    Let op, de locaties met de rode rand kunnen niet worden geselecteerd, omdat de etagetekeningen niet zijn vrijgegeven.`,
                 ],
             }),
             new Paragraph({

@@ -4,7 +4,7 @@ import { Feature } from '../../types/GeoJson'
 
 interface Props {
     host: HTMLElement
-    markers?: any[]
+    markers?: Feature[]
     onMarkerClick?: (feature: Feature) => void
 }
 
@@ -47,9 +47,17 @@ export class WorldMap extends Component<Props> {
 
         if (markers && markers.length > 0) {
             markers.forEach((feature: Feature) => {
+                const isActive = feature.properties.isActive
+                const markerBaseName = `WorldMapMarker`
                 const marker = M.create('div', {
-                    className: 'map-marker',
-                    'event:click': () => onMarkerClick && onMarkerClick(feature),
+                    className: isActive
+                        ? markerBaseName
+                        : `${markerBaseName} ${markerBaseName}--is-inactive`,
+                    'event:click': () => {
+                        if (isActive && onMarkerClick) {
+                            onMarkerClick(feature)
+                        }
+                    },
                 })
 
                 new mapboxgl.Marker(marker)
