@@ -1,4 +1,4 @@
-const getAuthorFromResult = (result: any) => {
+function getAuthorFromResult(result: any): string | undefined {
     return result.authors
         && result.authors['main-author']
         && result.authors['main-author']._attributes
@@ -6,7 +6,7 @@ const getAuthorFromResult = (result: any) => {
         || undefined
 }
 
-const getImageFromResult = (result: any) => {
+function getImageFromResult(result: any): string | undefined {
     return result.coverimages
         && result.coverimages.coverimage
         && result.coverimages.coverimage[1]
@@ -14,49 +14,55 @@ const getImageFromResult = (result: any) => {
         || undefined
 }
 
-const getSeriesFromResult = (result: any) => {
+function getSeriesFromResult(result: any): string | undefined {
     return result.series
         && result.series['series-title']
         && result.series['series-title']._text
         || undefined
 }
 
-const getTitleFromResult = (result: any) => {
+function getTitleFromResult(result: any): string | undefined {
     return result.titles
         && result.titles['short-title']
         && result.titles['short-title']._text
         || undefined
 }
 
-const getFormatFromResult = (result: any) => {
+function getFormatFromResult(result: any): string | undefined {
     return result.formats
         && result.formats.format
         && result.formats.format._text
         || undefined
 }
 
-const getSubjectFromResult = (result: any) => {
+function getSubjectFromResult(result: any): string | undefined {
     return result.subjects
         && result.subjects['topical-subject']
         && result.subjects['topical-subject']._text
         || undefined
 }
 
-const getTargetAudienceFromResult = (result: any) => {
+function getTargetAudienceFromResult(result: any): string | undefined {
     return result['target-audiences']
         && result['target-audiences']['target-audience']
         && result['target-audiences']['target-audience']._text
         || undefined
 }
 
-const getSummaryFromResult = (result: any) => {
+function getSummaryFromResult(result: any): string | undefined {
     return result.summaries
         && result.summaries.summary
         && result.summaries.summary._text
         || undefined
 }
 
-export const getTransformedResultFromResults = (results: any[]) => {
+function getFrablFromResult(result: any): string | undefined {
+    return result.frabl
+        && result.frabl._text
+        || undefined
+}
+
+export function getTransformedResultFromResults(results: any[]) {
     return results
         ? results.map(result => ({
             author: getAuthorFromResult(result),
@@ -67,6 +73,7 @@ export const getTransformedResultFromResults = (results: any[]) => {
             subject: getSubjectFromResult(result),
             targetAudience: getTargetAudienceFromResult(result),
             summary: getSummaryFromResult(result),
+            frabl: getFrablFromResult(result),
         }))
         : []
 }
@@ -105,6 +112,6 @@ const translations = {
     },
 }
 
-export function translateSuggestionKey(key: string, value: string) {
+export function translateSuggestionKey(key: string, value: string): string | undefined {
     return translations[key][value]
 }
