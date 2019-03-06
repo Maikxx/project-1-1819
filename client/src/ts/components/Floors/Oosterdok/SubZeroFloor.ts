@@ -28,7 +28,7 @@ export class SubZeroFloor extends Component<Props> {
                         M.create('g', { }, [
                             M.create('polygon', {
                                 'event:click': () => router.navigate(`/building/${id}/targetAudience=ageYouth`),
-                                className: 'Building__clickable-shape',
+                                className: 'ClickableShape',
                                 points: '761.86 924.82 761.86 372.1 1011.34 372.1 1011.34 227.14 1609.78 152.26 1632.58 300.34 1723.66 289.78 1823.5 988.54 1853.26 988.54 1853.26 1180.54 1764.22 1180.54 1764.22 979.78 1693.9 979.78 1693.9 1195.42 1850.38 1195.42 1850.38 1240.54 1588.66 1240.54 1588.66 926.14 761.86 924.82',
                             }),
                             M.create('text', {

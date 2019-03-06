@@ -16,7 +16,7 @@
         pointer-events: none;
     }
 
-    &__clickable-shape {
+    .ClickableShape {
         fill: var(--color-green);
         transition: fill .2s ease-in-out;
         cursor: pointer;

@@ -44,7 +44,7 @@ export class BuildingOverviewView {
                         new HorizontalScroll({
                             children: [
                                 new SubZeroFloor({ id, router }),
-                                new SecondFloor({ id, router }),
+                                new SecondFloor({ id, router, host }),
                             ],
                         }),
                     ],
