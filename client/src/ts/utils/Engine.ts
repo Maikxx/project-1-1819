@@ -141,8 +141,8 @@ export const ALLOWED_TAGS_PER_ATTRIBUTE = [
 export class M {
     public static async render(component: HTMLElement | SVGElement | string | Component<any> | Element, host: HTMLElement | Element | SVGElement) {
         let _node
-        if (Validator.isTypeOf(component, 'string')) {
-            _node = document.createTextNode(component as string)
+        if (typeof component === 'string') {
+            _node = document.createTextNode(component)
         } else if (component instanceof Component) {
             let content
             if (Validator.isPromise(component)) {
@@ -168,11 +168,11 @@ export class M {
     public static create(component: string | Function, properties: Object, ...children: any[]) {
         let _node: HTMLElement | SVGElement
 
-        if (Validator.isTypeOf(component, 'function')) {
+        if (typeof component === 'function') {
             _node = (component as any)(properties, children)
         } else {
-            if (Validator.isSvgElement(component as string)) {
-                _node = document.createElementNS('http://www.w3.org/2000/svg', component as string)
+            if (Validator.isSvgElement(component)) {
+                _node = document.createElementNS('http://www.w3.org/2000/svg', component)
             } else {
                 _node = document.createElement(component as string)
             }

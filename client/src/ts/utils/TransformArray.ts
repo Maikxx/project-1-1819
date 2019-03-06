@@ -24,7 +24,7 @@ export class TransformArray {
      * Performs a deep clean on an array,
      * where it will remove all falsy values from this array and all falsy values from nested objects and arrays.
      */
-    public static deepCleanArray(subject: any[]): any {
+    public static deepCleanArray(subject: any[]): any[] {
         return subject
             .map(item => {
                 if (Validator.isTruthyArray(item)) {
@@ -35,7 +35,7 @@ export class TransformArray {
                     return TransformObject.deepCleanObject(item)
                 }
 
-                if ((!Array.isArray(item) && item) || Validator.isTypeOf(item, 'number')) {
+                if ((!Array.isArray(item) && item) || typeof item === 'number') {
                     return item
                 }
             })
@@ -45,7 +45,7 @@ export class TransformArray {
     /**
      * Get a unique array from an array of objects, where you need to pass a key which needs to be unique in each object.
      */
-    public static getUniqueArrayByObjectKey<TData>(objects: TData[], key: string) {
+    public static getUniqueArrayByObjectKey<TData>(objects: TData[], key: string): TData[] {
         const uniques = new Set()
 
         return objects.filter(object => {

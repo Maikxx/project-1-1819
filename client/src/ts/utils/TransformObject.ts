@@ -26,7 +26,7 @@ export class TransformObject {
                 }
             }
 
-            if ((!Array.isArray(value) && value) || Validator.isTypeOf(value, 'number')) {
+            if ((!Array.isArray(value) && value) || typeof value === 'number') {
                 newObj[property] = value
             }
 
