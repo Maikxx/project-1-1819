@@ -117,12 +117,12 @@ export class Suggestions extends Component<Props> {
         const stream = await api.createStream(`search/${query}`)
 
         try {
-            const suggestions = await stream
+            const suggestions: any[] = await stream
                 .pipe(getTransformedResultFromResults)
                 .pipe(TransformArray.deepCleanArray)
                 .all()
 
-            this.renderSuggestionList(TransformArray.flatten(suggestions))
+            this.renderSuggestionList(suggestions.flat())
         } catch (error) {
             console.error(error)
             throw new Error(error.message)

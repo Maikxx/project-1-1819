@@ -21,22 +21,6 @@ export class TransformArray {
     }
 
     /**
-     * Create a shallow array from a multi-dimensional array, up to one level deep.
-     */
-    public static flatten(arr: any[]): any[] {
-        return arr.reduce((a, b) => a.concat(b), [])
-    }
-
-    /**
-     * Create a shallow array from a multi-dimensional array.
-     */
-    public static flattenDeep = (arr: any): any => {
-        return Array.isArray(arr)
-            ? arr.reduce((a, b) => a.concat(TransformArray.flattenDeep(b)), [])
-            : arr
-    }
-
-    /**
      * Performs a deep clean on an array,
      * where it will remove all falsy values from this array and all falsy values from nested objects and arrays.
      */
