@@ -38,6 +38,7 @@ export class PageHeader extends Component<Props> {
                             children: [
                                 new Anchor({
                                     className: 'PageHeader__nav-link',
+                                    href: '#',
                                     onClick: event => {
                                         event.preventDefault()
                                         router.navigate('/')

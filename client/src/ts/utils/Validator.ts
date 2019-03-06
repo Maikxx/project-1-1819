@@ -25,8 +25,7 @@ export class Validator {
     }
 
     public static isSvgElement(component: string) {
-        return component === 'a'
-            || component === 'animate'
+        return component === 'animate'
             || component === 'animateMotion'
             || component === 'animateTransform'
             || component === 'circle'

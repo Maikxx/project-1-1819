@@ -6,6 +6,8 @@ import { WrapView } from '../../components/Core/DataDisplay/WrapView'
 import { Heading } from '../../components/Core/DataDisplay/Text/Heading'
 import { SubZeroFloor } from '../../components/Floors/Oosterdok/SubZeroFloor'
 import { Anchor } from '../../components/Core/DataDisplay/Text/Anchor'
+import { SecondFloor } from '../../components/Floors/Oosterdok/SecondFloor'
+import { HorizontalScroll } from '../../components/Generic/HorizontalScroll'
 
 interface Props {
     host: HTMLElement
@@ -39,7 +41,12 @@ export class BuildingOverviewView {
                             children: [locationName],
                             level: 2,
                         }),
-                        new SubZeroFloor({ id, router }),
+                        new HorizontalScroll({
+                            children: [
+                                new SubZeroFloor({ id, router }),
+                                new SecondFloor({ id, router }),
+                            ],
+                        }),
                     ],
                 }),
                 host

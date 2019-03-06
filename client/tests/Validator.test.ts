@@ -60,10 +60,6 @@ describe('Validator.isTruthyArray', () => {
 
 describe('Validator.isSvgElement', () => {
     it('Should pass if a given value can be used to create an svg element with document.createElementNS', () => {
-        const resultFromA = Validator.isSvgElement('a')
-        expect(resultFromA).toBeDefined()
-        expect(resultFromA).toBeTruthy()
-
         const resultFromAnimate = Validator.isSvgElement('animate')
         expect(resultFromAnimate).toBeDefined()
         expect(resultFromAnimate).toBeTruthy()

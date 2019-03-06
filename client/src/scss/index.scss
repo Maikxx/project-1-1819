@@ -24,10 +24,6 @@ footer, header, hgroup, menu, nav, section, svg, g {
 	display: block;
 }
 
-body {
-	line-height: 1;
-}
-
 ol, ul {
 	list-style: none;
 }
@@ -74,3 +70,4 @@ body {
 @import './components/Paragraph.scss';
 @import './components/Floorplans.scss';
 @import './components/FloorWrap.scss';
+@import './components/HorizontalScroll.scss';

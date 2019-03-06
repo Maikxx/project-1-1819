@@ -29,6 +29,7 @@ export class SuggestionsView {
         }
 
         M.render(new PageHeader({ router, children: [] }), host)
+
         M.toggleLoader(host)
 
         M.render(
