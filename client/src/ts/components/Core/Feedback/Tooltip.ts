@@ -1,11 +1,37 @@
 import { Component, DefaultProps } from '../../../utils/Component'
 import { M } from '../../../utils/Engine'
 
+export type TooltipStyleOverrideType = 'action' | 'default'
+
 interface Props extends DefaultProps<Props> {
     position: {
         x: number
         y: number
     }
+    styleOverride?: TooltipStyleOverrideType
+}
+
+export function showTooltip(content: string, styleOverride: TooltipStyleOverrideType, host: HTMLElement) {
+    return function({ pageX, pageY }: MouseEvent) {
+        M.render(new Tooltip({
+            children: [content],
+            position: {
+                x: pageX,
+                y: pageY,
+            },
+            styleOverride,
+        }), host)
+    }
+}
+
+export function hideTooltip(host: HTMLElement) {
+    const tooltip = document.querySelector('.Tooltip')
+
+    if (!tooltip) {
+        return
+    }
+
+    host.removeChild(tooltip)
 }
 
 export class Tooltip extends Component<Props> {
@@ -23,8 +49,11 @@ export class Tooltip extends Component<Props> {
     }
 
     private getClassName() {
-        const { className } = this.props
+        const { className, styleOverride } = this.props
+        const baseClass = styleOverride
+            ? `Tooltip Tooltip--${styleOverride}`
+            : 'Tooltip Tooltip--default'
 
-        return M.getClassName('Tooltip', className)
+        return M.getClassName(baseClass, className)
     }
 }

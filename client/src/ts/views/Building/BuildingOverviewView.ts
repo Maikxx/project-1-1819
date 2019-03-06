@@ -32,7 +32,6 @@ export class BuildingOverviewView {
 
         M.render(new PageHeader({ router, children: [] }), host)
 
-        // Location is Oosterdok
         if (id === '15') {
             M.render(
                 new WrapView({
@@ -43,7 +42,7 @@ export class BuildingOverviewView {
                         }),
                         new HorizontalScroll({
                             children: [
-                                new SubZeroFloor({ id, router }),
+                                new SubZeroFloor({ id, router, host }),
                                 new SecondFloor({ id, router, host }),
                             ],
                         }),

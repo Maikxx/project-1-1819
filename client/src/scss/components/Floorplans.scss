@@ -10,10 +10,18 @@
         stroke-width: 5px;
     }
 
-    &__text {
-        font-size: 6rem;
+    &Text {
         fill: #FFFFFF;
         pointer-events: none;
+        font-size: 1.7rem;
+
+        &--large {
+            font-size: 6rem;
+        }
+
+        &--dark {
+            fill: #000000;
+        }
     }
 
     .ClickableShape {
@@ -24,5 +32,9 @@
         &:hover {
             fill: darken(#00C6B4, 5%)
         }
+    }
+
+    &__facility {
+        fill: var(--color-blue);
     }
 }

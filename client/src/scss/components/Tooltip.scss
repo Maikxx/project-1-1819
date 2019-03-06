@@ -1,8 +1,24 @@
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
 .Tooltip {
     position: absolute;
     padding: 12px 24px;
-    color: #ffffff;
-    background-color: var(--color-green);
     border-radius: 4px;
     transform: translate(-50%, -50%);
+    opacity: 0;
+    animation: .2s ease fadeIn forwards;
+
+    &--default {
+        background-color: var(--color-blue);
+        color: #ffffff;
+    }
+
+    &--action {
+        background-color: var(--color-green);
+        color: #ffffff;
+    }
 }
