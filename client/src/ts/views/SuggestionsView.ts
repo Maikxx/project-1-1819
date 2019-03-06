@@ -1,10 +1,10 @@
-import { M } from '../../utils/Engine'
-import obaLocations from '../../../../public/data/obaLocations.json'
-import { BuildingsGeoJson } from '../../types/GeoJson'
-import { PageHeader } from '../../components/Chrome/PageHeader'
-import { WrapView } from '../../components/Core/DataDisplay/WrapView'
-import { Heading } from '../../components/Core/DataDisplay/Text/Heading'
-import { Suggestions } from '../../components/Generic/Suggestions'
+import { M } from '../utils/Engine'
+import obaLocations from '../../../public/data/obaLocations.json'
+import { BuildingsGeoJson } from '../types/GeoJson'
+import { PageHeader } from '../components/Chrome/PageHeader'
+import { WrapView } from '../components/Core/DataDisplay/WrapView'
+import { Heading } from '../components/Core/DataDisplay/Text/Heading'
+import { Suggestions } from '../components/Generic/Suggestions'
 
 interface Props {
     host: HTMLElement

@@ -3,8 +3,8 @@ import Navigo from 'navigo'
 import { handleErrorRoute } from './routes/error'
 import { M } from './utils/Engine'
 import { MasterView } from './views/MasterView'
-import { BuildingOverviewView } from './views/Building/BuildingOverviewView'
-import { SuggestionsView } from './views/Building/SuggestionsView'
+import { BuildingOverviewView } from './views/BuildingOverviewView'
+import { SuggestionsView } from './views/SuggestionsView'
 
 export interface RouteParams {
     id?: string
