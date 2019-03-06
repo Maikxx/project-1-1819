@@ -52,7 +52,7 @@ export class Suggestions extends Component<Props> {
                     }))
                 }
 
-                if (suggestion.image) {
+                if (suggestion.image && !suggestion.image.includes('https://media')) {
                     children.push(new Image({ src: suggestion.image }))
                 }
 
