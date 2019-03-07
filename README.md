@@ -13,7 +13,11 @@
 
 ## Live demo
 
-[Demo link](https://minor-web-project-1.netlify.com)
+[🚀  Demo link  🚀](https://minor-web-project-1.netlify.com)
+
+![Page 1](./docs/page-1.png)
+![Page 2](./docs/page-2.png)
+![Page 3](./docs/page-3.png)
 
 ## Installation
 
