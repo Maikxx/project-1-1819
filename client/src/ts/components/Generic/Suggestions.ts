@@ -58,12 +58,14 @@ export class Suggestions extends Component<Props> {
 
                 if (suggestion.author) {
                     children.push(new Paragraph({
+                        className: 'SuggestionsListItem__author',
                         children: [suggestion.author],
                         isBlock: true,
                     }))
                 }
                 if (suggestion.summary) {
                     children.push(new Paragraph({
+                        className: 'SuggestionsListItem__summary',
                         children: [suggestion.summary],
                         isBlock: true,
                     }))
