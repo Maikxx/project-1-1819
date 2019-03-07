@@ -1,7 +1,5 @@
 import { Component } from '../../utils/Component'
 import { M } from '../../utils/Engine'
-import { List } from '../Core/DataDisplay/List'
-import { ListItem } from '../Core/DataDisplay/ListItem'
 import { API } from '../../../../../node_modules/oba-wrapper/js/index.js'
 import { getTransformedResultFromResults, translateSuggestionKey } from '../../transformers/TransformData'
 import { TransformArray } from '../../utils/TransformArray'
@@ -10,6 +8,7 @@ import { Paragraph } from '../Core/DataDisplay/Text/Paragraph'
 import { Image } from '../Core/DataDisplay/Image'
 import { Heading } from '../Core/DataDisplay/Text/Heading'
 import { TransformString } from '../../utils/TransformString'
+import { HorizontalScroll } from './HorizontalScroll'
 
 interface Props {
     id: string
@@ -40,7 +39,7 @@ export class Suggestions extends Component<Props> {
 
         M.resetComponent(suggestionsElement)
 
-        M.render(new List({
+        M.render(new HorizontalScroll({
             className: 'Suggestions__list',
             children: suggestions.map(suggestion => {
                 const children = []
@@ -97,10 +96,9 @@ export class Suggestions extends Component<Props> {
 
                 children.push(M.create('div', { className: 'Suggestions__list-meta' }, metaChildren))
 
-                return new ListItem({
+                return M.create('div', {
                     className: 'Suggestions__list-item',
-                    children,
-                })
+                }, children)
             }
         ),
         }), suggestionsElement)

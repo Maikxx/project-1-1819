@@ -1,7 +1,9 @@
 import { Component, DefaultProps } from '../../utils/Component'
 import { M } from '../../utils/Engine'
 
-interface Props extends DefaultProps<Props> {}
+interface Props extends DefaultProps<Props> {
+    centerItems?: boolean
+}
 
 export class HorizontalScroll extends Component<Props> {
     constructor(private props: Props) {
@@ -15,8 +17,9 @@ export class HorizontalScroll extends Component<Props> {
     }
 
     private getClassName() {
-        const { className } = this.props
+        const { className, centerItems } = this.props
+        const baseClassName = `HorizontalScroll${centerItems ? ' HorizontalScroll--center-items' : ''}`
 
-        return M.getClassName('HorizontalScroll', className)
+        return M.getClassName(baseClassName, className)
     }
 }
