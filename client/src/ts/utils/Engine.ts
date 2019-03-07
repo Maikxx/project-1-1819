@@ -183,10 +183,12 @@ export class M {
         }
 
         if (children && children.length > 0) {
-            children.forEach(child => Array.isArray(child)
-                ? child.forEach(c => this.render(c, _node))
-                : this.render(child, _node)
-            )
+            children
+                .filter(child => !!child)
+                .forEach(child => Array.isArray(child)
+                    ? child.forEach(c => this.render(c, _node))
+                    : this.render(child, _node)
+                )
         }
 
         return _node

@@ -8,9 +8,11 @@ import { Anchor } from '../Core/DataDisplay/Text/Anchor'
 import Navigo from 'navigo'
 import OBA100Image from '../../../../public/assets/oba100-logo.jpg'
 import { Image } from '../Core/DataDisplay/Image'
+import { Search } from '../Core/DataEntry/Search'
 
 interface Props extends DefaultProps<Props> {
     router: Navigo
+    onSearch?: (value: string) => void
 }
 
 export class PageHeader extends Component<Props> {
@@ -25,7 +27,7 @@ export class PageHeader extends Component<Props> {
         }).render()
     }
 
-    private renderPageNav = () => {
+    private renderPageNav() {
         const { router } = this.props
 
         return [
@@ -60,12 +62,43 @@ export class PageHeader extends Component<Props> {
                         }),
                     ],
                 }),
+                this.renderSearch(),
                 this.renderMetaNav(),
             ]),
         ]
     }
 
-    private renderMetaNav = () => {
+    private renderSearch() {
+        const { onSearch } = this.props
+
+        if (!onSearch) {
+            return null
+        }
+
+        return new Search({
+            onSearch: event => this.onSearch(event),
+            className: 'PageHeader__search',
+        })
+    }
+
+    private onSearch(event: KeyboardEvent) {
+        const { onSearch } = this.props
+        const { target } = event
+
+        if (!target || !onSearch) {
+            return
+        }
+
+        const { value } = (target as HTMLInputElement)
+
+        if (event.key !== 'Enter') {
+            return
+        }
+
+        onSearch(value)
+    }
+
+    private renderMetaNav() {
         return new List({
             className: 'PageHeader__meta-nav',
             children: [

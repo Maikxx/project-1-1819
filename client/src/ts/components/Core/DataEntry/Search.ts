@@ -4,7 +4,7 @@ import { M } from '../../../utils/Engine'
 interface Props {
     className?: string
     placeholder?: string
-    onSearch: (event: Event) => void
+    onSearch: (event: KeyboardEvent) => void
 }
 
 export class Search extends Component<Props> {
@@ -27,7 +27,7 @@ export class Search extends Component<Props> {
         const inputProperties = {
             className: 'Search__input',
             'event:keyup': onSearch,
-            placeholder: placeholder || 'Search...',
+            placeholder: placeholder || 'Zoeken...',
         }
 
         return M.create('input', inputProperties)

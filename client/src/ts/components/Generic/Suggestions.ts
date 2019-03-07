@@ -15,13 +15,19 @@ interface Props {
     id: string
     query: string
     host: HTMLElement
+    suggestions?: any[]
 }
 
 export class Suggestions extends Component<Props> {
     constructor(private props: Props) {
         super(props)
+        const { suggestions } = props
 
-        this.getSuggestions()
+        if (!suggestions || suggestions.length === 0) {
+            this.getSuggestions()
+        } else {
+            this.renderSuggestionList(suggestions)
+        }
     }
 
     public render = () => {
