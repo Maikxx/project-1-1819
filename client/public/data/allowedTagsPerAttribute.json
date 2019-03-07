@@ -1,0 +1,1163 @@
+{
+    "html": [
+        {
+            "attr": "accept-charset",
+            "tags": [
+                "form"
+            ]
+        },
+        {
+            "attr": "accept",
+            "tags": [
+                "form",
+                "input"
+            ]
+        },
+        {
+            "attr": "accesskey",
+            "tags": "*"
+        },
+        {
+            "attr": "action",
+            "tags": [
+                "form"
+            ]
+        },
+        {
+            "attr": "align",
+            "tags": [
+                "applet",
+                "caption",
+                "col",
+                "colgroup",
+                "hr",
+                "iframe",
+                "img",
+                "table",
+                "tbody",
+                "td",
+                "tfoot",
+                "th",
+                "thead",
+                "tr"
+            ]
+        },
+        {
+            "attr": "allow",
+            "tags": [
+                "iframe"
+            ]
+        },
+        {
+            "attr": "alt",
+            "tags": [
+                "applet",
+                "area",
+                "img",
+                "input"
+            ]
+        },
+        {
+            "attr": "async",
+            "tags": [
+                "script"
+            ]
+        },
+        {
+            "attr": "autocapitalize",
+            "tags": "*"
+        },
+        {
+            "attr": "autocomplete",
+            "tags": [
+                "form",
+                "input",
+                "textarea"
+            ]
+        },
+        {
+            "attr": "autofocus",
+            "tags": [
+                "button",
+                "input",
+                "keygen",
+                "select",
+                "textarea"
+            ]
+        },
+        {
+            "attr": "autoplay",
+            "tags": [
+                "audio",
+                "video"
+            ]
+        },
+        {
+            "attr": "buffered",
+            "tags": [
+                "audio",
+                "video"
+            ]
+        },
+        {
+            "attr": "challenge",
+            "tags": [
+                "keygen"
+            ]
+        },
+        {
+            "attr": "charset",
+            "tags": [
+                "meta",
+                "script"
+            ]
+        },
+        {
+            "attr": "checked",
+            "tags": [
+                "command",
+                "input"
+            ]
+        },
+        {
+            "attr": "cite",
+            "tags": [
+                "blockquote",
+                "del",
+                "ins",
+                "q"
+            ]
+        },
+        {
+            "attr": "class",
+            "tags": "*"
+        },
+        {
+            "attr": "code",
+            "tags": [
+                "applet"
+            ]
+        },
+        {
+            "attr": "codebase",
+            "tags": [
+                "applet"
+            ]
+        },
+        {
+            "attr": "cols",
+            "tags": [
+                "textarea"
+            ]
+        },
+        {
+            "attr": "colspan",
+            "tags": [
+                "td",
+                "th"
+            ]
+        },
+        {
+            "attr": "content",
+            "tags": [
+                "meta"
+            ]
+        },
+        {
+            "attr": "contenteditable",
+            "tags": "*"
+        },
+        {
+            "attr": "contextmenu",
+            "tags": "*"
+        },
+        {
+            "attr": "controls",
+            "tags": [
+                "audio",
+                "video"
+            ]
+        },
+        {
+            "attr": "coords",
+            "tags": [
+                "area"
+            ]
+        },
+        {
+            "attr": "crossorigin",
+            "tags": [
+                "audio",
+                "img",
+                "link",
+                "script",
+                "video"
+            ]
+        },
+        {
+            "attr": "csp",
+            "tags": [
+                "iframe"
+            ]
+        },
+        {
+            "attr": "d",
+            "tags": [
+                "path"
+            ]
+        },
+        {
+            "attr": "data",
+            "tags": "*"
+        },
+        {
+            "attr": "datetime",
+            "tags": [
+                "del",
+                "ins",
+                "time"
+            ]
+        },
+        {
+            "attr": "decoding",
+            "tags": [
+                "img"
+            ]
+        },
+        {
+            "attr": "default",
+            "tags": [
+                "track"
+            ]
+        },
+        {
+            "attr": "defer",
+            "tags": [
+                "script"
+            ]
+        },
+        {
+            "attr": "dir",
+            "tags": "*"
+        },
+        {
+            "attr": "dirname",
+            "tags": [
+                "input",
+                "textarea"
+            ]
+        },
+        {
+            "attr": "disabled",
+            "tags": [
+                "button",
+                "command",
+                "fieldset",
+                "input",
+                "keygen",
+                "optgroup",
+                "option",
+                "select",
+                "textarea"
+            ]
+        },
+        {
+            "attr": "download",
+            "tags": [
+                "a",
+                "area"
+            ]
+        },
+        {
+            "attr": "draggable",
+            "tags": "*"
+        },
+        {
+            "attr": "dropzone",
+            "tags": "*"
+        },
+        {
+            "attr": "enctype",
+            "tags": [
+                "form"
+            ]
+        },
+        {
+            "attr": "for",
+            "tags": [
+                "label",
+                "output"
+            ]
+        },
+        {
+            "attr": "form",
+            "tags": [
+                "button",
+                "fieldset",
+                "input",
+                "keygen",
+                "label",
+                "meter",
+                "object",
+                "output",
+                "progress",
+                "select",
+                "textarea"
+            ]
+        },
+        {
+            "attr": "formaction",
+            "tags": [
+                "input",
+                "button"
+            ]
+        },
+        {
+            "attr": "headers",
+            "tags": [
+                "td",
+                "th"
+            ]
+        },
+        {
+            "attr": "height",
+            "tags": [
+                "canvas",
+                "embed",
+                "iframe",
+                "img",
+                "input",
+                "object",
+                "video",
+                "rect"
+            ]
+        },
+        {
+            "attr": "hidden",
+            "tags": "*"
+        },
+        {
+            "attr": "high",
+            "tags": [
+                "meter"
+            ]
+        },
+        {
+            "attr": "href",
+            "tags": [
+                "a",
+                "area",
+                "base",
+                "link"
+            ]
+        },
+        {
+            "attr": "hreflang",
+            "tags": [
+                "a",
+                "area",
+                "link"
+            ]
+        },
+        {
+            "attr": "http-equiv",
+            "tags": [
+                "meta"
+            ]
+        },
+        {
+            "attr": "fill",
+            "tags": "*"
+        },
+        {
+            "attr": "cx",
+            "tags": "*"
+        },
+        {
+            "attr": "cy",
+            "tags": "*"
+        },
+        {
+            "attr": "rx",
+            "tags": "*"
+        },
+        {
+            "attr": "ry",
+            "tags": "*"
+        },
+        {
+            "attr": "r",
+            "tags": "*"
+        },
+        {
+            "attr": "font-family",
+            "tags": "*"
+        },
+        {
+            "attr": "font-size",
+            "tags": "*"
+        },
+        {
+            "attr": "icon",
+            "tags": [
+                "command"
+            ]
+        },
+        {
+            "attr": "id",
+            "tags": "*"
+        },
+        {
+            "attr": "importance",
+            "tags": [
+                "iframe",
+                "img",
+                "link",
+                "script"
+            ]
+        },
+        {
+            "attr": "integrity",
+            "tags": [
+                "link",
+                "script"
+            ]
+        },
+        {
+            "attr": "ismap",
+            "tags": [
+                "img"
+            ]
+        },
+        {
+            "attr": "itemprop",
+            "tags": "*"
+        },
+        {
+            "attr": "keytype",
+            "tags": [
+                "keygen"
+            ]
+        },
+        {
+            "attr": "kind",
+            "tags": [
+                "track"
+            ]
+        },
+        {
+            "attr": "label",
+            "tags": [
+                "track"
+            ]
+        },
+        {
+            "attr": "lang",
+            "tags": "*"
+        },
+        {
+            "attr": "language",
+            "tags": [
+                "script"
+            ]
+        },
+        {
+            "attr": "list",
+            "tags": [
+                "input"
+            ]
+        },
+        {
+            "attr": "loop",
+            "tags": [
+                "audio",
+                "bgsound",
+                "marquee",
+                "video"
+            ]
+        },
+        {
+            "attr": "low",
+            "tags": [
+                "meter"
+            ]
+        },
+        {
+            "attr": "manifest",
+            "tags": [
+                "html"
+            ]
+        },
+        {
+            "attr": "max",
+            "tags": [
+                "input",
+                "meter",
+                "progress"
+            ]
+        },
+        {
+            "attr": "maxlength",
+            "tags": [
+                "input",
+                "textarea"
+            ]
+        },
+        {
+            "attr": "media",
+            "tags": [
+                "a",
+                "area",
+                "link",
+                "source",
+                "style"
+            ]
+        },
+        {
+            "attr": "method",
+            "tags": [
+                "form"
+            ]
+        },
+        {
+            "attr": "min",
+            "tags": [
+                "input",
+                "meter"
+            ]
+        },
+        {
+            "attr": "minlength",
+            "tags": [
+                "input",
+                "textarea"
+            ]
+        },
+        {
+            "attr": "multiple",
+            "tags": [
+                "input",
+                "select"
+            ]
+        },
+        {
+            "attr": "muted",
+            "tags": [
+                "audio",
+                "video"
+            ]
+        },
+        {
+            "attr": "name",
+            "tags": [
+                "button",
+                "form",
+                "fieldset",
+                "iframe",
+                "input",
+                "keygen",
+                "object",
+                "output",
+                "select",
+                "textarea",
+                "map",
+                "meta",
+                "param"
+            ]
+        },
+        {
+            "attr": "novalidate",
+            "tags": [
+                "form"
+            ]
+        },
+        {
+            "attr": "open",
+            "tags": [
+                "details"
+            ]
+        },
+        {
+            "attr": "optimum",
+            "tags": [
+                "meter"
+            ]
+        },
+        {
+            "attr": "pattern",
+            "tags": [
+                "input"
+            ]
+        },
+        {
+            "attr": "ping",
+            "tags": [
+                "a",
+                "area"
+            ]
+        },
+        {
+            "attr": "placeholder",
+            "tags": [
+                "input",
+                "textarea"
+            ]
+        },
+        {
+            "attr": "points",
+            "tags": [
+                "polygon",
+                "polyline"
+            ]
+        },
+        {
+            "attr": "poster",
+            "tags": [
+                "video"
+            ]
+        },
+        {
+            "attr": "preload",
+            "tags": [
+                "audio",
+                "video"
+            ]
+        },
+        {
+            "attr": "radiogroup",
+            "tags": [
+                "command"
+            ]
+        },
+        {
+            "attr": "readonly",
+            "tags": [
+                "input",
+                "textarea"
+            ]
+        },
+        {
+            "attr": "referrerpolicy",
+            "tags": [
+                "a",
+                "area",
+                "iframe",
+                "img",
+                "link",
+                "script"
+            ]
+        },
+        {
+            "attr": "rel",
+            "tags": [
+                "a",
+                "area",
+                "link"
+            ]
+        },
+        {
+            "attr": "required",
+            "tags": [
+                "input",
+                "select",
+                "textarea"
+            ]
+        },
+        {
+            "attr": "reversed",
+            "tags": [
+                "ol"
+            ]
+        },
+        {
+            "attr": "rows",
+            "tags": [
+                "textarea"
+            ]
+        },
+        {
+            "attr": "rowspan",
+            "tags": [
+                "td",
+                "th"
+            ]
+        },
+        {
+            "attr": "sandbox",
+            "tags": [
+                "iframe"
+            ]
+        },
+        {
+            "attr": "scope",
+            "tags": [
+                "th"
+            ]
+        },
+        {
+            "attr": "scoped",
+            "tags": [
+                "style"
+            ]
+        },
+        {
+            "attr": "selected",
+            "tags": [
+                "option"
+            ]
+        },
+        {
+            "attr": "shape",
+            "tags": [
+                "a",
+                "area"
+            ]
+        },
+        {
+            "attr": "size",
+            "tags": [
+                "input",
+                "select"
+            ]
+        },
+        {
+            "attr": "sizes",
+            "tags": [
+                "link",
+                "img",
+                "source"
+            ]
+        },
+        {
+            "attr": "slot",
+            "tags": "*"
+        },
+        {
+            "attr": "span",
+            "tags": [
+                "col",
+                "colgroup"
+            ]
+        },
+        {
+            "attr": "spellcheck",
+            "tags": "*"
+        },
+        {
+            "attr": "src",
+            "tags": [
+                "audio",
+                "embed",
+                "iframe",
+                "img",
+                "input",
+                "script",
+                "source",
+                "track",
+                "video"
+            ]
+        },
+        {
+            "attr": "srcdoc",
+            "tags": [
+                "iframe"
+            ]
+        },
+        {
+            "attr": "srclang",
+            "tags": [
+                "track"
+            ]
+        },
+        {
+            "attr": "srcset",
+            "tags": [
+                "img",
+                "source"
+            ]
+        },
+        {
+            "attr": "start",
+            "tags": [
+                "ol"
+            ]
+        },
+        {
+            "attr": "step",
+            "tags": [
+                "input"
+            ]
+        },
+        {
+            "attr": "style",
+            "tags": "*"
+        },
+        {
+            "attr": "summary",
+            "tags": [
+                "table"
+            ]
+        },
+        {
+            "attr": "tabindex",
+            "tags": "*"
+        },
+        {
+            "attr": "target",
+            "tags": [
+                "a",
+                "area",
+                "base",
+                "form"
+            ]
+        },
+        {
+            "attr": "title",
+            "tags": "*"
+        },
+        {
+            "attr": "transform",
+            "tags": [
+                "svg",
+                "g",
+                "text",
+                "path",
+                "polygon",
+                "rect"
+            ]
+        },
+        {
+            "attr": "translate",
+            "tags": "*"
+        },
+        {
+            "attr": "type",
+            "tags": [
+                "button",
+                "input",
+                "command",
+                "embed",
+                "object",
+                "script",
+                "source",
+                "style",
+                "menu"
+            ]
+        },
+        {
+            "attr": "usemap",
+            "tags": [
+                "img",
+                "input",
+                "object"
+            ]
+        },
+        {
+            "attr": "value",
+            "tags": [
+                "button",
+                "option",
+                "input",
+                "li",
+                "meter",
+                "progress",
+                "param"
+            ]
+        },
+        {
+            "attr": "viewBox",
+            "tags": [
+                "svg"
+            ]
+        },
+        {
+            "attr": "width",
+            "tags": [
+                "canvas",
+                "embed",
+                "iframe",
+                "img",
+                "input",
+                "object",
+                "video",
+                "rect"
+            ]
+        },
+        {
+            "attr": "wrap",
+            "tags": [
+                "textarea"
+            ]
+        },
+        {
+            "attr": "x",
+            "tags": "*"
+        },
+        {
+            "attr": "xmlns",
+            "tags": [
+                "svg"
+            ]
+        },
+        {
+            "attr": "y",
+            "tags": "*"
+        }
+    ],
+    "svg": [
+        { "accumulate": 	["animate", "animateMotion", "animateTransform"	]},
+        { "additive": 	["animate", "animateMotion", "animateTransform"	]},
+        { "amplitude": 	["feFuncA", "feFuncB", "feFuncG", "feFuncR"]},
+        { "aria-activedescendant": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-atomic": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-autocomplete": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-busy": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-checked": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-colcount": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-colindex": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-colspan": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-controls": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-current": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-describedby": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-details": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-disabled": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-dropeffect": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-errormessage": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-expanded": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-flowto": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-grabbed": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-haspopup": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-hidden": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-invalid": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-keyshortcuts": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-label": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-labelledby": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-level": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-live": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-modal": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-multiline": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-multiselectable": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-orientation": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-owns": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-placeholder": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-posinset": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-pressed": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-readonly": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-relevant": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-required": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-roledescription": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-rowcount": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-rowindex": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-rowspan": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-selected": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-setsize": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-sort": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-valuemax": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-valuemin": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-valuenow": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "aria-valuetext": ["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "attributeName": 	["animate", "animateTransform", "set"	]},
+        { "azimuth": 	["feDistantLight"]},
+        { "baseFrequency": 	["feTurbulence"]},
+        { "begin": 	["animate", "animateMotion", "animateTransform", "set"	]},
+        { "begin": 	["discard"	]},
+        { "bias": 	["feConvolveMatrix"]},
+        { "by": 	["animate", "animateMotion", "animateTransform"	]},
+        { "calcMode": 	["animate", "animateMotion", "animateTransform"	]},
+        { "class": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "clipPath", "defs", "desc", "discard", "ellipse", "feBlend", "feColorMatrix", "feComponentTransfer", "feComposite", "feConvolveMatrix", "feDiffuseLighting", "feDisplacementMap", "feDistantLight", "feDropShadow", "feFlood", "feFuncA", "feFuncB", "feFuncG", "feFuncR", "feGaussianBlur", "feImage", "feMerge", "feMergeNode", "feMorphology", "feOffset", "fePointLight", "feSpecularLighting", "feSpotLight", "feTile", "feTurbulence", "filter", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "mask", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"]},
+        { "clipPathUnits": 	["clipPath"]},
+        { "crossorigin": 	["feImage", "script", "image"	]},
+        { "cx": 	["radialGradient"]},
+        { "cy": 	["radialGradient"]},
+        { "diffuseConstant": 	["feDiffuseLighting"]},
+        { "divisor": 	["feConvolveMatrix"]},
+        { "download": 	["a"	]},
+        { "dur": 	["animate", "animateMotion", "animateTransform", "set"	]},
+        { "dx": 	["feDropShadow", "feOffset", "text", "tspan"]},
+        { "dy": 	["feDropShadow", "feOffset", "text", "tspan"]},
+        { "edgeMode": 	["feConvolveMatrix", "feGaussianBlur"]},
+        { "elevation": 	["feDistantLight"]},
+        { "end": 	["animate", "animateMotion", "animateTransform", "set"	]},
+        { "exponent": 	["feFuncA", "feFuncB", "feFuncG", "feFuncR"]},
+        { "fill": 	["animate", "animateMotion", "animateTransform", "set"	]},
+        { "filterUnits": 	["filter"]},
+        { "fr": 	["radialGradient"]},
+        { "from": 	["animate", "animateMotion", "animateTransform"	]},
+        { "fx": 	["radialGradient"]},
+        { "fy": 	["radialGradient"]},
+        { "gradientTransform": 	["linearGradient", "radialGradient"]},
+        { "gradientUnits": 	["linearGradient", "radialGradient"]},
+        { "height": 	["feBlend", "feColorMatrix", "feComponentTransfer", "feComposite", "feConvolveMatrix", "feDiffuseLighting", "feDisplacementMap", "feDropShadow", "feFlood", "feGaussianBlur", "feImage", "feMerge", "feMorphology", "feOffset", "feSpecularLighting", "feTile", "feTurbulence", "filter", "mask", "pattern"]},
+        { "href": 	["a", "animate", "animateMotion", "animateTransform", "set"	, "discard"	, "feImage", "image", "linearGradient", "mpath"	, "pattern", "radialGradient", "script"	, "textPath", "use"]},
+        { "hreflang": 	["a"	]},
+        { "id": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "clipPath", "defs", "desc", "discard", "ellipse", "feBlend", "feColorMatrix", "feComponentTransfer", "feComposite", "feConvolveMatrix", "feDiffuseLighting", "feDisplacementMap", "feDistantLight", "feDropShadow", "feFlood", "feFuncA", "feFuncB", "feFuncG", "feFuncR", "feGaussianBlur", "feImage", "feMerge", "feMergeNode", "feMorphology", "feOffset", "fePointLight", "feSpecularLighting", "feSpotLight", "feTile", "feTurbulence", "filter", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "mask", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "in": 	["feBlend", "feColorMatrix", "feComponentTransfer", "feComposite", "feConvolveMatrix", "feDiffuseLighting", "feDisplacementMap", "feDropShadow", "feGaussianBlur", "feMergeNode", "feMorphology", "feOffset", "feSpecularLighting", "feTile"]},
+        { "in2": 	["feBlend", "feComposite", "feDisplacementMap"]},
+        { "intercept": 	["feFuncA", "feFuncB", "feFuncG", "feFuncR"]},
+        { "k1": 	["feComposite"]},
+        { "k2": 	["feComposite"]},
+        { "k3": 	["feComposite"]},
+        { "k4": 	["feComposite"]},
+        { "kernelMatrix": 	["feConvolveMatrix"]},
+        { "kernelUnitLength": 	["feConvolveMatrix", "feDiffuseLighting", "feSpecularLighting"]},
+        { "keyPoints": 	["animateMotion"	]},
+        { "keySplines": 	["animate", "animateMotion", "animateTransform"	]},
+        { "keyTimes": 	["animate", "animateMotion", "animateTransform"	]},
+        { "lang": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "clipPath", "defs", "desc", "discard", "ellipse", "feBlend", "feColorMatrix", "feComponentTransfer", "feComposite", "feConvolveMatrix", "feDiffuseLighting", "feDisplacementMap", "feDistantLight", "feDropShadow", "feFlood", "feFuncA", "feFuncB", "feFuncG", "feFuncR", "feGaussianBlur", "feImage", "feMerge", "feMergeNode", "feMorphology", "feOffset", "fePointLight", "feSpecularLighting", "feSpotLight", "feTile", "feTurbulence", "filter", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "mask", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "lengthAdjust": 	["text", "textPath", "tspan"]},
+        { "limitingConeAngle": 	["feSpotLight"]},
+        { "markerHeight": 	["marker"]},
+        { "markerUnits": 	["marker"]},
+        { "markerWidth": 	["marker"]},
+        { "maskContentUnits": 	["mask"]},
+        { "maskUnits": 	["mask"]},
+        { "max": 	["animate", "animateMotion", "animateTransform", "set"	]},
+        { "media": 	["style"	]},
+        { "method": 	["textPath"]},
+        { "min": 	["animate", "animateMotion", "animateTransform", "set"	]},
+        { "mode": 	["feBlend"]},
+        { "numOctaves": 	["feTurbulence"]},
+        { "offset": 	["feFuncA", "feFuncB", "feFuncG", "feFuncR", "stop"]},
+        { "onabort": 	["svg"	]},
+        { "onbegin": 	["animate", "animateMotion", "animateTransform", "set"	]},
+        { "oncancel": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "oncanplay": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "oncanplaythrough": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "onchange": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "onclick": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "onclose": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "oncopy": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "oncuechange": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "oncut": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "ondblclick": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "ondrag": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "ondragend": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "ondragenter": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "ondragexit": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "ondragleave": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "ondragover": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "ondragstart": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "ondrop": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "ondurationchange": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "onemptied": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "onend": 	["animate", "animateMotion", "animateTransform", "set"	]},
+        { "onended": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "onerror": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "onerror": 	["svg"	]},
+        { "onfocus": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "onfocusin": 	["a", "audio", "canvas", "circle", "defs", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video"	]},
+        { "onfocusout": 	["a", "audio", "canvas", "circle", "defs", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video"	]},
+        { "oninput": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "oninvalid": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "onkeydown": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "onkeypress": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "onkeyup": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "onload": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "onloadeddata": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "onloadedmetadata": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "onloadstart": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "onmousedown": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "onmouseenter": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "onmouseleave": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "onmousemove": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "onmouseout": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "onmouseover": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "onmouseup": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "onmousewheel": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "onpaste": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "onpause": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "onplay": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "onplaying": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "onprogress": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "onratechange": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "onrepeat": 	["animate", "animateMotion", "animateTransform", "set"	]},
+        { "onreset": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "onresize": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "onresize": 	["svg"	]},
+        { "onscroll": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "onscroll": 	["svg"	]},
+        { "onseeked": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "onseeking": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "onselect": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "onshow": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "onstalled": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "onsubmit": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "onsuspend": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "ontimeupdate": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "ontoggle": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "onunload": 	["svg"	]},
+        { "onvolumechange": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "onwaiting": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "defs", "desc", "ellipse", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "operator": 	["feComposite", "feMorphology"]},
+        { "order": 	["feConvolveMatrix"]},
+        { "orient": 	["marker", "animateMotion"]},
+        { "path": 	["animateMotion", "textPath"	]},
+        { "pathLength": 	["circle", "ellipse", "line", "path", "polygon", "polyline", "rect"]},
+        { "patternContentUnits": 	["pattern"]},
+        { "patternTransform": 	["pattern"]},
+        { "patternUnits": 	["pattern"]},
+        { "ping": 	["a"	]},
+        { "playbackorder": 	["svg"	]},
+        { "points": 	["polygon", "polyline"]},
+        { "pointsAtX": 	["feSpotLight"]},
+        { "pointsAtY": 	["feSpotLight"]},
+        { "pointsAtZ": 	["feSpotLight"]},
+        { "preserveAlpha": 	["feConvolveMatrix"]},
+        { "preserveAspectRatio": 	["canvas", "feImage", "image", "marker", "pattern", "svg", "symbol", "view"]},
+        { "primitiveUnits": 	["filter"]},
+        { "r": 	["radialGradient"]},
+        { "radius": 	["feMorphology"]},
+        { "refX": 	["marker", "symbol"]},
+        { "refY": 	["marker", "symbol"]},
+        { "referrerpolicy": 	["a"	]},
+        { "rel": 	["a"	]},
+        { "repeatCount": 	["animate", "animateMotion", "animateTransform", "set"	]},
+        { "repeatDur": 	["animate", "animateMotion", "animateTransform", "set"	]},
+        { "requiredExtensions": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "clipPath", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "mask", "path", "polygon", "polyline", "rect", "set", "svg", "switch", "text", "textPath", "tspan", "unknown", "use", "video"	]},
+        { "restart": 	["animate", "animateMotion", "animateTransform", "set"	]},
+        { "result": 	["feBlend", "feColorMatrix", "feComponentTransfer", "feComposite", "feConvolveMatrix", "feDiffuseLighting", "feDisplacementMap", "feDropShadow", "feFlood", "feGaussianBlur", "feImage", "feMerge", "feMorphology", "feOffset", "feSpecularLighting", "feTile", "feTurbulence"]},
+        { "role": 	["a", "audio", "canvas", "circle", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "path", "polygon", "polyline", "rect", "svg", "switch", "symbol", "text", "textPath", "tspan", "unknown", "use", "video", "view"	]},
+        { "rotate": 	["animateMotion", "text", "tspan"]},
+        { "scale": 	["feDisplacementMap"]},
+        { "seed": 	["feTurbulence"]},
+        { "side": 	["textPath"]},
+        { "slope": 	["feFuncA", "feFuncB", "feFuncG", "feFuncR"]},
+        { "spacing": 	["textPath"]},
+        { "specularConstant": 	["feSpecularLighting"]},
+        { "specularExponent": 	["feSpecularLighting", "feSpotLight"]},
+        { "spreadMethod": 	["linearGradient", "radialGradient"]},
+        { "startOffset": 	["textPath"]},
+        { "stdDeviation": 	["feDropShadow", "stdDeviation"]},
+        { "stitchTiles": 	["feTurbulence"]},
+        { "style": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "clipPath", "defs", "desc", "discard", "ellipse", "feBlend", "feColorMatrix", "feComponentTransfer", "feComposite", "feConvolveMatrix", "feDiffuseLighting", "feDisplacementMap", "feDistantLight", "feDropShadow", "feFlood", "feFuncA", "feFuncB", "feFuncG", "feFuncR", "feGaussianBlur", "feImage", "feMerge", "feMergeNode", "feMorphology", "feOffset", "fePointLight", "feSpecularLighting", "feSpotLight", "feTile", "feTurbulence", "filter", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "mask", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "surfaceScale": 	["feDiffuseLighting", "feSpecularLighting"]},
+        { "systemLanguage": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "clipPath", "discard", "ellipse", "foreignObject", "g", "iframe", "image", "line", "mask", "path", "polygon", "polyline", "rect", "set", "svg", "switch", "text", "textPath", "tspan", "unknown", "use", "video"	]},
+        { "tabindex": 	["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "clipPath", "defs", "desc", "discard", "ellipse", "feBlend", "feColorMatrix", "feComponentTransfer", "feComposite", "feConvolveMatrix", "feDiffuseLighting", "feDisplacementMap", "feDistantLight", "feDropShadow", "feFlood", "feFuncA", "feFuncB", "feFuncG", "feFuncR", "feGaussianBlur", "feImage", "feMerge", "feMergeNode", "feMorphology", "feOffset", "fePointLight", "feSpecularLighting", "feSpotLight", "feTile", "feTurbulence", "filter", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "mask", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "tableValues": 	["feFuncA", "feFuncB", "feFuncG", "feFuncR"]},
+        { "target": 	["a"]},
+        { "targetX": 	["feConvolveMatrix"]},
+        { "targetY": 	["feConvolveMatrix"]},
+        { "textLength": 	["text", "textPath", "tspan"]},
+        { "timelinebegin": 	["svg"	]},
+        { "title": 	["style"	]},
+        { "to": 	["animate", "animateMotion", "animateTransform", "set"	]},
+        { "transform": 	["svg"]},
+        { "type": 	["animateTransform", "feColorMatrix", "a", "feFuncA", "feFuncB", "feFuncG", "feFuncR", "feTurbulence", "script", "style"	]},
+        { "values": 	["animate", "animateMotion", "animateTransform", "feColorMatrix"	]},
+        { "viewBox": 	["marker", "pattern", "svg", "symbol", "view"]},
+        { "width": 	["filter", "mask", "pattern", "feBlend", "feColorMatrix", "feComponentTransfer", "feComposite", "feConvolveMatrix", "feDiffuseLighting", "feDisplacementMap", "feDropShadow", "feFlood", "feGaussianBlur", "feImage", "feMerge", "feMorphology", "feOffset", "feSpecularLighting", "feTile", "feTurbulence"]},
+        { "x": 	["feBlend", "feColorMatrix", "feComponentTransfer", "feComposite", "feConvolveMatrix", "feDiffuseLighting", "feDisplacementMap", "feDropShadow", "feFlood", "feGaussianBlur", "feImage", "feMerge", "feMorphology", "feOffset", "feSpecularLighting", "feTile", "feTurbulence", "fePointLight", "feSpotLight", "filter", "mask", "pattern", "text", "tspan"]},
+        { "x1": 	["line", "linearGradient"]},
+        { "x2": 	["line", "linearGradient"]},
+        { "xChannelSelector": 	["feDisplacementMap"]},
+        { "xlink:href":	["a", "image", "linearGradient", "pattern", "radialGradient", "script", "textPath", "use", "feImage", "title"]},
+        { "xml:space": ["a", "animate", "animateMotion", "animateTransform", "audio", "canvas", "circle", "clipPath", "defs", "desc", "discard", "ellipse", "feBlend", "feColorMatrix", "feComponentTransfer", "feComposite", "feConvolveMatrix", "feDiffuseLighting", "feDisplacementMap", "feDistantLight", "feDropShadow", "feFlood", "feFuncA", "feFuncB", "feFuncG", "feFuncR", "feGaussianBlur", "feImage", "feMerge", "feMergeNode", "feMorphology", "feOffset", "fePointLight", "feSpecularLighting", "feSpotLight", "feTile", "feTurbulence", "filter", "foreignObject", "g", "iframe", "image", "line", "linearGradient", "marker", "mask", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "video", "view"	]},
+        { "y": 	["feBlend", "feColorMatrix", "feComponentTransfer", "feComposite", "feConvolveMatrix", "feDiffuseLighting", "feDisplacementMap", "feDropShadow", "feFlood", "feGaussianBlur", "feImage", "feMerge", "feMorphology", "feOffset", "feSpecularLighting", "feTile", "feTurbulence", "fePointLight", "feSpotLight", "filter" , "mask", "pattern", "text", "tspan"]},
+        { "y1": 	["line", "linearGradient"]},
+        { "y2": 	["line", "linearGradient"]},
+        { "yChannelSelector": 	["feDisplacementMap"]},
+        { "z": 	["fePointLight", "feSpotLight"]},
+        { "zoomAndPan": ["svg", "view"]}
+    ],
+    "validSvgElements": ["animate", "animateMotion", "animateTransform", "circle", "clipPath", "color-profile", "defs", "desc", "discard", "ellipse", "feBlend", "feColorMatrix", "feComponentTransfer", "feComposite", "feConvolveMatrix", "feDiffuseLighting", "feDisplacementMap", "feDistantLight", "feDropShadow", "feFlood", "feFuncA", "feFuncB", "feFuncG", "feFuncR", "feGaussianBlur", "feImage", "feMerge", "feMergeNode", "feMorphology", "feOffset", "fePointLight", "feSpecularLighting", "feSpotLight", "feTile", "feTurbulence", "filter", "foreignObject", "g", "hatch", "hatchpath", "image", "line", "linearGradient", "marker", "mask", "mesh", "meshgradient", "meshpatch", "meshrow", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "script", "set", "solidcolor", "stop", "style", "svg", "switch", "symbol", "text", "textPath", "title", "tspan", "unknown", "use", "view"]
+}

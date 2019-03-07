@@ -112,7 +112,7 @@ export class Suggestions extends Component<Props> {
         const api = new API({
             key: '1e19898c87464e239192c8bfe422f280',
         })
-        const stream = await api.createStream(`search/${query}`)
+        const stream = await api.createStream(`search/${query}{50}`)
 
         try {
             const suggestions: any[] = await stream
