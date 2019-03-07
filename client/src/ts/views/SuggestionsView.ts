@@ -8,6 +8,7 @@ import { Heading } from '../components/Core/DataDisplay/Text/Heading'
 import { Suggestions } from '../components/Generic/Suggestions'
 import { getTransformedResultFromResults } from '../transformers/TransformData'
 import { TransformArray } from '../utils/TransformArray'
+import { Toast } from '../components/Core/Feedback/Toast'
 
 interface Props {
     host: HTMLElement
@@ -77,6 +78,8 @@ export class SuggestionsView {
             M.render(new Suggestions({ suggestions: suggestions.flat(), id, query, host }), suggestionsView)
         } catch (error) {
             M.toggleLoader(host)
+            M.render(new Toast({ children: [error.message], type: 'error' }), host)
+
             console.error(error)
             throw new Error(error.message)
         }

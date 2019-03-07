@@ -1,0 +1,30 @@
+@keyframes showToast {
+    0%, 100% {
+        transform: translateX(-100%);
+    }
+
+    20%, 80% {
+        transform: translateX(0);
+    }
+}
+
+.Toast {
+    border-radius: 0 6px 6px 0;
+    padding: 6px 36px;
+    animation: showToast ease forwards 3s;
+    position: absolute;
+    font-size: 1.3rem;
+    bottom: 5%;
+    left: 0;
+    transform: translateX(-100%);
+
+    &--error {
+        background-color: var(--color-oba-red);
+        color: #FFFFFF;
+    }
+
+    &--default {
+        background-color: var(--color-blue);
+        color: #FFFFFF;
+    }
+}

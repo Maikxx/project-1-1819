@@ -10,6 +10,7 @@ import { Heading } from '../Core/DataDisplay/Text/Heading'
 import { TransformString } from '../../utils/TransformString'
 import { HorizontalScroll } from './HorizontalScroll'
 import { Anchor } from '../Core/DataDisplay/Text/Anchor'
+import { Toast } from '../Core/Feedback/Toast'
 
 interface Props {
     id: string
@@ -118,7 +119,7 @@ export class Suggestions extends Component<Props> {
     }
 
     private async getSuggestions() {
-        const { query } = this.props
+        const { query, host } = this.props
 
         const api = new API({
             key: '1e19898c87464e239192c8bfe422f280',
@@ -133,6 +134,8 @@ export class Suggestions extends Component<Props> {
 
             this.renderSuggestionList(suggestions.flat())
         } catch (error) {
+            M.render(new Toast({ children: [error.message], type: 'error' }), host)
+
             console.error(error)
             throw new Error(error.message)
         }

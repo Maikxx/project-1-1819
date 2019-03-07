@@ -5,6 +5,7 @@ import { M } from './utils/Engine'
 import { MasterView } from './views/MasterView'
 import { BuildingOverviewView } from './views/BuildingOverviewView'
 import { SuggestionsView } from './views/SuggestionsView'
+import { Toast } from './components/Core/Feedback/Toast'
 
 export interface RouteParams {
     id?: string
@@ -22,10 +23,13 @@ export class App {
         const router = new Navigo(null, true, '#')
 
         if (!mainElement) {
-            throw new Error(`
-                Root element not found in the document.${` `}
-                You might have forgotten to change the root element or it is not yet loaded.
-            `)
+            M.render(new Toast({
+                children: [
+                    `Root element not found in the document.${` `}
+                    You might have forgotten to change the root element or it is not yet loaded.`,
+                ],
+                type: 'error',
+            }), document.body)
         }
 
         try {
@@ -39,6 +43,8 @@ export class App {
 
             router.resolve()
         } catch (error) {
+            M.render(new Toast({ children: [error.message], type: 'error' }), mainElement)
+
             console.error(error)
             throw new Error(error)
         }
