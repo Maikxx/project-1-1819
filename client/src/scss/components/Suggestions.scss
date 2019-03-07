@@ -8,6 +8,14 @@
             + .SuggestionsListItem {
                 margin-left: 10%;
             }
+
+            &--is-clickable.Anchor:hover {
+                text-decoration: none;
+
+                .Heading {
+                    text-decoration: underline;
+                }
+            }
         }
 
         &-meta {
