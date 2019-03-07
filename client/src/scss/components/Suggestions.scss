@@ -3,7 +3,8 @@
         padding-bottom: 2rem;
 
         .SuggestionsListItem {
-            min-width: 33%;
+            min-width: 250px;
+            width: 33%;
 
             + .SuggestionsListItem {
                 margin-left: 10%;
