@@ -20,6 +20,7 @@
 ### Pre-install
 
 * Make sure to install [yarn](https://yarnpkg.com/en/) or [npm](https://www.npmjs.com).
+* Make sure that you have check for updates on the [OBA-Wrapper](https://github.com/maanlamp/OBA-wrapper) and install them if there are severe bugs. You can do this by downloading the js folder from that repository and dragging the contents of it into [this folder](./client/src/modules/OBAWrapper).
 * Make sure the **port** specified in the [package.json](client/package.json) is available (defaults to 3000).
 
 ### Install
