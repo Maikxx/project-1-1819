@@ -59,15 +59,21 @@ body {
 	display: none;
 }
 
-@import './components/WorldMap.scss';
-@import './components/PageHeader.scss';
-@import './components/WrapView.scss';
-@import './components/Anchor.scss';
-@import './components/Loader.scss';
-@import './components/Suggestions.scss';
-@import './components/Heading.scss';
-@import './components/Paragraph.scss';
-@import './components/Floorplans.scss';
-@import './components/FloorWrap.scss';
-@import './components/HorizontalScroll.scss';
-@import './components/Tooltip.scss';
+// Chrome components
+@import './components/Chrome/PageHeader.scss';
+
+// Core components
+@import './components/Core/Anchor.scss';
+@import './components/Core/Heading.scss';
+@import './components/Core/HorizontalScroll.scss';
+@import './components/Core/Loader.scss';
+@import './components/Core/Paragraph.scss';
+@import './components/Core/Search.scss';
+@import './components/Core/Tooltip.scss';
+@import './components/Core/WrapView.scss';
+
+// Generic components
+@import './components/Generic/Floorplans.scss';
+@import './components/Generic/FloorWrap.scss';
+@import './components/Generic/Suggestions.scss';
+@import './components/Generic/WorldMap.scss';
