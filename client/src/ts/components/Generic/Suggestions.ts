@@ -45,15 +45,15 @@ export class Suggestions extends Component<Props> {
             children: suggestions.map(suggestion => {
                 const children = []
 
-                if (suggestion.title) {
-                    children.push(new Heading({
-                        children: [suggestion.title],
-                        level: 3,
-                    }))
-                }
-
                 if (suggestion.image && !suggestion.image.includes('https://media')) {
                     children.push(new Image({ src: suggestion.image }))
+                }
+
+                if (suggestion.title) {
+                    children.push(new Heading({
+                        children: [TransformString.truncateString(suggestion.title, 50)],
+                        level: 3,
+                    }))
                 }
 
                 if (suggestion.author) {
@@ -66,7 +66,7 @@ export class Suggestions extends Component<Props> {
                 if (suggestion.summary) {
                     children.push(new Paragraph({
                         className: 'SuggestionsListItem__summary',
-                        children: [suggestion.summary],
+                        children: [TransformString.truncateString(suggestion.summary, 100)],
                         isBlock: true,
                     }))
                 }

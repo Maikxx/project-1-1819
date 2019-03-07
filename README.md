@@ -45,6 +45,10 @@ I choose to create a map with all the locations of the OBA on it, where you woul
 ## Features
 
 * Render a map with all the OBA locations on it.
+* Get to see the floors of that OBA location side by side.
+* Interact with the floor, you can see where toilets, elevators and escalators are, as well as the general gist of where content can be found on a certain floor.
+* Once interacted with the content desired, you get sent to a page which shows you a list of suggestions which correspond to the type and other features of that content.
+* Once you have found something fun, which you want to learn more about, you can click on it, to see all of it's features and details, as well as where to find it and where it is available.
 
 ## Future enhancements
 
