@@ -46,6 +46,7 @@ export class PageHeader extends Component<Props> {
                                     children: [
                                         new Image({
                                             src: OBA100Image,
+                                            alt: 'OBA logo',
                                             className: 'PageHeader__logo',
                                         }),
                                         new Heading({

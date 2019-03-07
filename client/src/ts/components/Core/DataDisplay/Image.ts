@@ -4,6 +4,7 @@ import { Component } from '../../../utils/Component'
 interface Props {
     className?: string
     src?: string
+    alt?: string
 }
 
 export class Image extends Component<Props> {
@@ -12,16 +13,13 @@ export class Image extends Component<Props> {
     }
 
     public render = () => {
-        const { src } = this.props
+        const { src, alt } = this.props
 
-        return M.create(
-            'img',
-            {
-                className: this.getClassNames(),
-                src,
-            },
-            []
-        )
+        return M.create('img', {
+            className: this.getClassNames(),
+            src,
+            alt,
+        })
     }
 
     private getClassNames() {
