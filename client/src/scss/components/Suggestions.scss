@@ -2,10 +2,10 @@
     &__list {
         padding-bottom: 2rem;
 
-        &-item {
+        .SuggestionsListItem {
             min-width: 33%;
 
-            + .Suggestions__list-item {
+            + .SuggestionsListItem {
                 margin-left: 10%;
             }
         }

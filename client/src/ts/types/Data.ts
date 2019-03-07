@@ -6,5 +6,6 @@ export interface TransformedData {
     format?: string
     subject?: string
     targetAudience?: string
+    detailPage?: string
     summary?: string
 }

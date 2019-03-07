@@ -62,6 +62,12 @@ function getFrablFromResult(result: any): string | undefined {
         || undefined
 }
 
+function getDetailPageFromResult(result: any): string | undefined {
+    return result['detail-page']
+        && result['detail-page']._text
+        || undefined
+}
+
 export function getTransformedResultFromResults(results: any[]) {
     return results
         ? results.map(result => ({
@@ -73,6 +79,7 @@ export function getTransformedResultFromResults(results: any[]) {
             subject: getSubjectFromResult(result),
             targetAudience: getTargetAudienceFromResult(result),
             summary: getSummaryFromResult(result),
+            detailPage: getDetailPageFromResult(result),
             frabl: getFrablFromResult(result),
         }))
         : []

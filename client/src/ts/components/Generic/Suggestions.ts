@@ -9,6 +9,7 @@ import { Image } from '../Core/DataDisplay/Image'
 import { Heading } from '../Core/DataDisplay/Text/Heading'
 import { TransformString } from '../../utils/TransformString'
 import { HorizontalScroll } from './HorizontalScroll'
+import { Anchor } from '../Core/DataDisplay/Text/Anchor'
 
 interface Props {
     id: string
@@ -96,9 +97,11 @@ export class Suggestions extends Component<Props> {
 
                 children.push(M.create('div', { className: 'Suggestions__list-meta' }, metaChildren))
 
-                return M.create('div', {
-                    className: 'Suggestions__list-item',
-                }, children)
+                return new Anchor({
+                    className: `SuggestionsListItem${suggestion.detailPage ? ' SuggestionsListItem--is-clickable' : ''}`,
+                    ...(suggestion.detailPage ? { href: suggestion.detailPage } : {}),
+                    children,
+                })
             }
         ),
         }), suggestionsElement)
