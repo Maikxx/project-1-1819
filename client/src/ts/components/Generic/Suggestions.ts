@@ -1,6 +1,6 @@
 import { Component } from '../../utils/Component'
 import { M } from '../../utils/Engine'
-import { API } from '../../../modules/OBAWrapper/index.js'
+import { API } from '../../../../../node_modules/oba-wrapper/js/index.js'
 import { getTransformedResultFromResults, translateSuggestionKey } from '../../transformers/TransformData'
 import { TransformArray } from '../../utils/TransformArray'
 import { TransformedData } from '../../types/Data'

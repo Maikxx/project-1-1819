@@ -31,7 +31,8 @@
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
-    "navigo": "^7.1.2"
+    "navigo": "^7.1.2",
+    "oba-wrapper": "github:maanlamp/OBA-wrapper"
   },
   "author": "Maikel van Veen <maikeloo10@hotmail.com>",
   "license": "MIT"

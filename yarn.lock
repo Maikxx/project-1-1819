@@ -4286,6 +4286,10 @@ oauth-sign@~0.9.0:
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/oauth-sign/-/oauth-sign-0.9.0.tgz#47a7b016baa68b5fa0ecf3dee08a85c679ac6455"
 
+"oba-wrapper@github:maanlamp/OBA-wrapper":
+  version "1.0.0"
+  resolved "https://codeload.github.com/maanlamp/OBA-wrapper/tar.gz/a894052a2a9bd289f360f791e9d175dc9ede3732"
+
 object-assign@^4.0.1, object-assign@^4.1.0, object-assign@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
