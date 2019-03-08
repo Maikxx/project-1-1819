@@ -13,12 +13,22 @@ export class Toast extends Component<Props> {
     }
 
     public render = () => {
-        const { children } = this.props
-
         return M.create('div', {
             className: this.getClassName(),
             'event:animationend': () => this.onAnimationEnd(),
-        }, children)
+        }, this.translateError())
+    }
+
+    private translateError() {
+        const { children, type } = this.props
+        const [message] = children
+
+        if (type === 'error' && (message as string).includes('No results found for')) {
+            const [ , erroredQuery ] = (message as string).split(' \'')
+            return [`Er konden geen resultaten gevonden worden met de zoekopdracht: '${erroredQuery.replace('\'.', '')}'.`]
+        }
+
+        return children
     }
 
     private onAnimationEnd() {
