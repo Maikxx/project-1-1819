@@ -9,6 +9,7 @@ import { Suggestions } from '../components/Generic/Suggestions'
 import { getTransformedResultFromResults } from '../transformers/TransformData'
 import { TransformArray } from '../utils/TransformArray'
 import { Toast } from '../components/Core/Feedback/Toast'
+import { View } from '../components/Core/DataDisplay/View'
 
 interface Props {
     host: HTMLElement
@@ -37,15 +38,19 @@ export class SuggestionsView {
         M.toggleLoader(host)
 
         M.render(
-            new WrapView({
+            new View({
+                className: 'SuggestionsView',
                 children: [
-                    new Heading({
-                        children: [locationName],
-                        level: 2,
+                    new WrapView({
+                        children: [
+                            new Heading({
+                                children: [locationName],
+                                level: 2,
+                            }),
+                        ],
                     }),
                     new Suggestions({ id, query, host }),
                 ],
-                className: 'SuggestionsView',
             }),
             host
         )

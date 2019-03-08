@@ -8,6 +8,7 @@ import { SubZeroFloor } from '../components/Floors/Oosterdok/SubZeroFloor'
 import { Anchor } from '../components/Core/DataDisplay/Text/Anchor'
 import { SecondFloor } from '../components/Floors/Oosterdok/SecondFloor'
 import { HorizontalScroll } from '../components/Generic/HorizontalScroll'
+import { View } from '../components/Core/DataDisplay/View'
 
 interface Props {
     host: HTMLElement
@@ -34,11 +35,16 @@ export class BuildingOverviewView {
 
         if (id === '15') {
             M.render(
-                new WrapView({
+                new View({
+                    className: 'BuildingView',
                     children: [
-                        new Heading({
-                            children: [locationName],
-                            level: 2,
+                        new WrapView({
+                            children: [
+                                new Heading({
+                                    children: [locationName],
+                                    level: 2,
+                                }),
+                            ],
                         }),
                         new HorizontalScroll({
                             centerItems: true,
