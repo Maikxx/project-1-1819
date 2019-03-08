@@ -13,6 +13,12 @@
 
     &__logo {
         max-height: 3em;
+        transform-origin: center;
+        transition: .2s ease transform;
+
+        &:hover {
+            transform: scale(1.1);
+        }
     }
 
     &__nav {
