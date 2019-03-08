@@ -13,7 +13,7 @@
     margin-top: -25px;
     margin-left: -25px;
     border-radius: 50%;
-    border-top: 3px solid #000000;
+    border-top: 3px solid var(--color-blue);
     border-right: 3px solid transparent;
     animation: spin .6s linear infinite;
 }
