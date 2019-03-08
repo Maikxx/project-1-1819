@@ -1,4 +1,8 @@
-# Project 1 @cmda-minor-web · 2018-2019
+# Enhanced OBA search functionality
+
+This repository is meant for assignment 1 of the Minor Web.
+In this project I tried to reinvent the search functionality of [zoeken.oba.nl](https://zoeken.oba.nl).
+You can read more about this below.
 
 ## Table of Contents
 
@@ -54,7 +58,7 @@ I choose to create a map with all the locations of the OBA on it, where you woul
 * Once interacted with the content desired, you get sent to a page which shows you a list of suggestions which correspond to the type and other features of that content.
 * Once you have found something fun, which you want to learn more about, you can click on it, to see all of it's features and details, as well as where to find it and where it is available.
 * Free search the API.
-* Error toast.
+* Error toasting when API errors occur.
 
 ## Future enhancements
 
@@ -67,7 +71,9 @@ I choose to create a map with all the locations of the OBA on it, where you woul
 * [BabelJS](https://babeljs.io).
 * [Concurrently](https://www.npmjs.com/package/concurrently).
 * [Navigo](https://github.com/krasimir/navigo).
+* [Maanlamps OBA wrapper](https://github.com/maanlamp/OBA-wrapper).
 * [ParcelJS](https://parceljs.org).
+* [SASS](https://sass-lang.com/).
 * [TypeScript](https://www.typescriptlang.org).
 * [Wait-on](https://www.npmjs.com/package/wait-on).
 * [Yarn](https://yarnpkg.com/en/).
