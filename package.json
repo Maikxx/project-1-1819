@@ -25,7 +25,7 @@
     "open-chrome": "wait-on http://localhost:3000 && open -a \"Google Chrome\" http://localhost:3000",
     "start-client": "yarn clear-dist && concurrently \"yarn watch-client\" \"yarn open-chrome\" --raw",
     "tslint": "tslint -p . -c tslint.json \"**/*.ts\" \"**/*.tsx\"",
-    "watch-client": "parcel client/src/index.html -p 3000",
+    "watch-client": "parcel client/src/index.html -p 3000 --no-source-maps",
     "test": "jest",
     "testWithCoverage": "jest --coverage"
   },
