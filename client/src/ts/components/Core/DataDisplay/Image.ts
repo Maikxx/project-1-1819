@@ -18,7 +18,9 @@ export class Image extends Component<Props> {
         return M.create('img', {
             className: this.getClassNames(),
             src,
-            alt,
+            alt: alt
+                ? alt
+                : '',
         })
     }
 
