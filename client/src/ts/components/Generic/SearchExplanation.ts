@@ -24,6 +24,7 @@ export class SearchExplanation extends Component<Props> {
                 }),
                 new Paragraph({
                     isBlock: true,
+                    id: 'button-information',
                     children: [
                         `1. Selecteer een van de beschikbare locaties op de kaart, waar u graag de collectie zou willen ontdekken.`,
                     ],

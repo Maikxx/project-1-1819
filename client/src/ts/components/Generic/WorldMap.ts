@@ -58,6 +58,7 @@ export class WorldMap extends Component<Props> {
                             onMarkerClick(feature)
                         }
                     },
+                    'aria-describedby': 'button-information',
                 })
 
                 new mapboxgl.Marker(marker)

@@ -3,6 +3,7 @@ import { M } from '../../../../utils/Engine'
 
 interface Props extends DefaultProps<Props> {
     isBlock?: boolean
+    id?: string
 }
 
 export class Paragraph extends Component<Props> {
@@ -11,10 +12,13 @@ export class Paragraph extends Component<Props> {
     }
 
     public render = () => {
-        const { children } = this.props
+        const { children, id } = this.props
 
         return M.create('p', {
             className: this.getClassNames(),
+            id: id
+                ? id
+                : '',
         }, ...children)
     }
 
