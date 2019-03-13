@@ -49,7 +49,7 @@ export class WorldMap extends Component<Props> {
             markers.forEach((feature: Feature) => {
                 const isActive = feature.properties.isActive
                 const markerBaseName = `WorldMapMarker`
-                const marker = M.create('div', {
+                const marker = M.create('button', {
                     className: isActive
                         ? markerBaseName
                         : `${markerBaseName} ${markerBaseName}--is-inactive`,
